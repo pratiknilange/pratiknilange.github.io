@@ -1,2 +1,1 @@
-# pratiknilange.github.io
-Home 🏠
+🥑

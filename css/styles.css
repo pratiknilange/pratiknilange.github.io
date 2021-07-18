@@ -1,0 +1,221 @@
+/* © Pratik Nilange / pratiknilange.in / 2021 */
+
+/* === FONTS s === */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url("/global/fontawesome-free-5.15.3-web/fontawesome-free-5.15.3-web/css/all.min.css");
+
+/* === FONTS e === */
+
+/* === ROOT s === */
+
+
+
+/* === ROOT e === */
+
+/* === Proxy Classes s === */
+
+
+.pn-html {}
+
+.pn-body {}
+
+.pn-main {}
+
+.pn-page {}
+
+.pn-pagetitle {}
+
+.pn-postdate {}
+
+.pn-pagecontent {}
+
+.pn-subsectitle {}
+
+.pn-code {}
+
+.pn-footer {}
+
+.pn-indpostdate {}
+
+.pn-indposttitle {}
+
+.pn-inditem {}
+
+
+
+/* === Proxy Classes e === */
+
+
+/* === Main s === */
+
+.container {
+    width    : auto;
+    max-width: 700px !important;
+}
+
+.pagecontent {
+    color: inherit;
+}
+
+/* === Main e === */
+
+
+/* === Anchor s === */
+
+a {
+    color     : #2E86C1;
+    transition: 0.2s !important;
+}
+
+a:hover {
+    color: #222 !important;
+}
+
+a.indlist {
+    text-decoration: none !important;
+}
+
+a.indlist:hover {
+    color          : #222 !important;
+    text-decoration: underline !important;
+}
+
+a.menulink {
+    text-decoration: none !important;
+    font-weight    : normal !important;
+}
+
+a.menulink:hover {
+    text-decoration: underline !important;
+}
+
+a.intlink {
+    color          : rgb(201, 201, 201);
+    text-decoration: none;
+}
+
+a.navbar-branda {
+    color          : inherit;
+    text-decoration: none !important;
+}
+
+a.navbar-branda:hover {
+    color          : #2E86C1 !important;
+    text-decoration: underline !important;
+}
+
+a.ontpg {
+    text-decoration: none;
+}
+
+/* === Anchor e === */
+
+
+/* === Menu s === */
+.pgmenu {
+    border-bottom: 1px solid #e6e6e6;
+}
+
+.nav-hg-rm:focus {
+    outline   : none;
+    box-shadow: none;
+}
+
+/* === Menu e === */
+
+/* === Footer s === */
+
+.pagefooter {
+    border-top: 1px solid #e6e6e6;
+}
+
+/* === Footer e === */
+
+
+/* === Styling elements s === */
+
+#fadepage {
+    -webkit-animation: fadein 0.75s;
+    -moz-animation   : fadein 0.75s;
+    -ms-animation    : fadein 0.75s;
+    -o-animation     : fadein 0.75s;
+    animation        : fadein 0.75s;
+}
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes fadein {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes fadein {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@-ms-keyframes fadein {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@-o-keyframes fadein {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+/* === Styling elements e === */
+
+/* === Page titles s === */
+
+.blogposttitle {
+    color: inherit;
+}
+
+.pagetitle {
+    color: inherit;
+}
+
+/* === Page titles e === */
+
+/* === Code s === */
+
+pre {
+    border-radius: 10px !important;
+}
+
+pre[class*="language-"] {
+    overflow     : auto;
+    /* box-shadow: 0 0 30px rgba(0, 0, 0, 0.4), 0 0 1px rgba(0, 0, 0, .06), 0 2px 2px rgba(0, 0, 0, .06), 0 4px 4px rgba(0, 0, 0, .06), 0 8px 8px rgba(0, 0, 0, .06), 0 16px 16px rgba(0, 0, 0, .06); */
+}
+
+/* === Code s === */
