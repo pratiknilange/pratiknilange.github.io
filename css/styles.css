@@ -4,17 +4,13 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
 @import url("/global/fontawesome-free-5.15.3-web/fontawesome-free-5.15.3-web/css/all.min.css");
-
 /* === FONTS e === */
 
 /* === ROOT s === */
 
-
-
 /* === ROOT e === */
 
 /* === Proxy Classes s === */
-
 
 .pn-html {}
 
@@ -42,15 +38,12 @@
 
 .pn-inditem {}
 
-
-
 /* === Proxy Classes e === */
-
 
 /* === Main s === */
 
 .container {
-    width    : auto;
+    width: auto;
     max-width: 700px !important;
 }
 
@@ -60,11 +53,10 @@
 
 /* === Main e === */
 
-
 /* === Anchor s === */
 
 a {
-    color     : #2E86C1;
+    color: #2E86C1;
     transition: 0.2s !important;
 }
 
@@ -77,13 +69,13 @@ a.indlist {
 }
 
 a.indlist:hover {
-    color          : #222 !important;
+    color: #222 !important;
     text-decoration: underline !important;
 }
 
 a.menulink {
     text-decoration: none !important;
-    font-weight    : normal !important;
+    font-weight: normal !important;
 }
 
 a.menulink:hover {
@@ -91,17 +83,17 @@ a.menulink:hover {
 }
 
 a.intlink {
-    color          : rgb(201, 201, 201);
+    color: rgb(201, 201, 201);
     text-decoration: none;
 }
 
 a.navbar-branda {
-    color          : inherit;
+    color: inherit;
     text-decoration: none !important;
 }
 
 a.navbar-branda:hover {
-    color          : #2E86C1 !important;
+    color: #2E86C1 !important;
     text-decoration: underline !important;
 }
 
@@ -111,14 +103,14 @@ a.ontpg {
 
 /* === Anchor e === */
 
-
 /* === Menu s === */
+
 .pgmenu {
     border-bottom: 1px solid #e6e6e6;
 }
 
 .nav-hg-rm:focus {
-    outline   : none;
+    outline: none;
     box-shadow: none;
 }
 
@@ -132,22 +124,20 @@ a.ontpg {
 
 /* === Footer e === */
 
-
 /* === Styling elements s === */
 
 #fadepage {
     -webkit-animation: fadein 0.75s;
-    -moz-animation   : fadein 0.75s;
-    -ms-animation    : fadein 0.75s;
-    -o-animation     : fadein 0.75s;
-    animation        : fadein 0.75s;
+    -moz-animation: fadein 0.75s;
+    -ms-animation: fadein 0.75s;
+    -o-animation: fadein 0.75s;
+    animation: fadein 0.75s;
 }
 
 @keyframes fadein {
     from {
         opacity: 0;
     }
-
     to {
         opacity: 1;
     }
@@ -157,7 +147,6 @@ a.ontpg {
     from {
         opacity: 0;
     }
-
     to {
         opacity: 1;
     }
@@ -167,7 +156,6 @@ a.ontpg {
     from {
         opacity: 0;
     }
-
     to {
         opacity: 1;
     }
@@ -177,7 +165,6 @@ a.ontpg {
     from {
         opacity: 0;
     }
-
     to {
         opacity: 1;
     }
@@ -187,7 +174,6 @@ a.ontpg {
     from {
         opacity: 0;
     }
-
     to {
         opacity: 1;
     }
@@ -214,7 +200,7 @@ pre {
 }
 
 pre[class*="language-"] {
-    overflow     : auto;
+    overflow: auto;
     /* box-shadow: 0 0 30px rgba(0, 0, 0, 0.4), 0 0 1px rgba(0, 0, 0, .06), 0 2px 2px rgba(0, 0, 0, .06), 0 4px 4px rgba(0, 0, 0, .06), 0 8px 8px rgba(0, 0, 0, .06), 0 16px 16px rgba(0, 0, 0, .06); */
 }
 
