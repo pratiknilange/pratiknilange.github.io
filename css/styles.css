@@ -9,6 +9,10 @@
 
 /* === ROOT s === */
 
+:root{
+    --linkcolor: #5DADE2;
+}
+
 /* === ROOT e === */
 
 
@@ -67,7 +71,7 @@ body {
 /* === Anchor s === */
 
 a {
-    color: #2E86C1;
+    color: var(--linkcolor);
     transition: 0.2s !important;
 }
 
@@ -104,7 +108,7 @@ a.navbar-branda {
 }
 
 a.navbar-branda:hover {
-    color: #2E86C1 !important;
+    color: var(--linkcolor) !important;
     text-decoration: underline !important;
 }
 
