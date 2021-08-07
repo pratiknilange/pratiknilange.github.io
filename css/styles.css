@@ -1,0 +1,232 @@
+/* Fonts */
+
+@import url(/css/fonts.css);
+.fw-semibold {
+    font-weight: 500;
+}
+
+/* Root */
+
+:root {
+    --pnred: #F44336;
+    --pnblue: #03A9F4;
+    --pngreen: #66BB6A;
+    --pnblack: #000;
+    --pngray: #d1d1d1;
+    --pnpurple: #9C27B0;
+    --pndarkgray: #777;
+}
+
+.red {
+    color: var(--pnred);
+}
+
+.blue {
+    color: var(--pnblue);
+}
+
+.green {
+    color: var(--pngreen);
+}
+
+.black {
+    color: var(--pnblack);
+}
+
+.gray {
+    color: var(--pndarkgray);
+}
+
+/* Fade page */
+
+#fadepage {
+    -webkit-animation: fadein 0.75s;
+    -moz-animation: fadein 0.75s;
+    -ms-animation: fadein 0.75s;
+    -o-animation: fadein 0.75s;
+    animation: fadein 0.75s;
+}
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@-ms-keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@-o-keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+/* Main */
+
+html {
+    background-color: white;
+}
+
+body {
+    font-family: 'Inter';
+}
+
+/* Headings */
+
+h1, h2, h3, h4, h5, h6, p {
+    font-size: 17px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 700;
+}
+
+/* a */
+
+a {
+    transition: 0.15s;
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--pndarkgray);
+}
+
+a.hometitle {
+    color: black;
+}
+
+/* blog classes */
+
+a.blog-button {
+    color: var(--pnblue);
+}
+
+a.blog-button:hover {
+    color: var(--pnblue);
+}
+
+a.blog-button-disable {
+    color: var(--pngray);
+}
+
+a.blog-item {
+    color: var(--pngray);
+}
+
+a.blog-item:hover {
+    color: var(--pnblue);
+}
+
+a.blog-item-active {
+    color: var(--pnblue);
+}
+
+a.blog-item-active:hover {
+    color: var(--pnblack);
+}
+
+/* works classes */
+
+a.works-button {
+    color: var(--pnred);
+}
+
+a.works-button:hover {
+    color: var(--pnred);
+}
+
+a.works-button-disable {
+    color: var(--pngray);
+}
+
+a.work-item {
+    color: var(--pngray);
+}
+
+a.work-item:hover {
+    color: var(--pnred);
+}
+
+a.work-item-active {
+    color: var(--pnred);
+}
+
+a.work-item-active:hover {
+    color: var(--pnblack);
+}
+
+/* social classes */
+
+a.social-button {
+    color: var(--pngreen);
+}
+
+a.social-button:hover {
+    color: var(--pngreen);
+}
+
+a.social-button-disable {
+    color: var(--pngray);
+}
+
+a.social-item {
+    color: var(--pngray);
+}
+
+a.social-item:hover {
+    color: var(--pngreen);
+}
+
+a.social-item-active {
+    color: var(--pngreen);
+}
+
+a.social-item-active:hover {
+    color: var(--pnblack);
+}
+
+/* about classes */
+
+a.about-button {
+    color: var(--pnblack);
+}
+
+a.about-button-disable {
+    color: var(--pngray);
+}
+
+a.about-button:hover {
+    color: var(--pnblack);
+}
