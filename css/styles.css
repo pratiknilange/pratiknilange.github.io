@@ -15,6 +15,7 @@
     --pngray: #d1d1d1;
     --pnpurple: #9C27B0;
     --pndarkgray: #777;
+    --pnorange: orange;
 }
 
 .red {
@@ -232,5 +233,35 @@ a.about-button-disable {
 }
 
 a.about-button:hover {
+    color: var(--pnblack);
+}
+
+/* reviews classes */
+
+a.reviews-button {
+    color: var(--pnorange);
+}
+
+a.reviews-button:hover {
+    color: var(--pnorange);
+}
+
+a.reviews-button-disable {
+    color: var(--pngray);
+}
+
+a.review-item {
+    color: var(--pngray);
+}
+
+a.review-item:hover {
+    color: var(--pnorange);
+}
+
+a.review-item-active {
+    color: var(--pnorange);
+}
+
+a.review-item-active:hover {
     color: var(--pnblack);
 }
