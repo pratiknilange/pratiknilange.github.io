@@ -103,7 +103,7 @@ body {
     font-family: 'Inter';
 }
 
-.container-fluid{
+.container-fluid {
     max-width: 96%;
 }
 
@@ -264,4 +264,22 @@ a.review-item-active {
 
 a.review-item-active:hover {
     color: var(--pnblack);
+}
+
+/* other css */
+
+.tooltip{
+    font-size: 17px;
+}
+
+.tooltip-inner{
+    background-color: #fff;
+    color: var(--pngray);
+    white-space:nowrap;
+    font-family: 'Inter';
+    letter-spacing: normal;
+}
+
+.tooltip-arrow {
+    display: none !important;
 }

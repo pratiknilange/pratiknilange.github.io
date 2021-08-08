@@ -1,6 +1,3 @@
-$("#navComp").load("/components/nav.html");
-
-
 $(document).ajaxComplete(function () {
     document.getElementById('blogbutton').onclick = blogitems;
     document.getElementById('worksbutton').onclick = workitems;
