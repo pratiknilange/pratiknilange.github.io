@@ -1,39 +1,94 @@
 <!DOCTYPE html>
-<html lang="en" translate="no" class="notranslate">
+<html>
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- prefetch stuff # -->
+    <link rel="preload" href="/media/bg/pexels-vlada-karpovich-7903129.jpg" as="image">
+    <!-- prefetch stuf ## -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="google" content="notranslate">
-    <title>Home</title>
+    <title>Pratik Nilange</title>
+    <meta name="description" content="tech, design, and lame jokes.">
 
-    <script src="global/jquery-3.6.0.min.js"></script>
-    <script src="/global/popper.min.js"></script>
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://pratiknilange.in/">
+    <meta property="og:title" content="Pratik Nilange">
+    <meta property="og:description" content="tech, design, and lame jokes.">
+    <meta property="og:image" content="https://pratiknilange.in/media/social/previews/SM_prev_1.jpg">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://pratiknilange.in/">
+    <meta property="twitter:title" content="Pratik Nilange">
+    <meta property="twitter:description" content="tech, design, and lame jokes.">
+    <meta property="twitter:image" content="https://pratiknilange.in/media/social/previews/SM_prev_1.jpg">
+    <!-- meta tags end here -->
+    <link rel=icon type=image/png href="media/img/icon.png">
+
+    <!-- std libs #-->
     <link rel="stylesheet" href="global/bs/css/bootstrap.min.css">
-    <script src="global/bs/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="css/styles.css">
-    <script src="/js/load.js" defer></script>
-    <script src="js/home.js" defer></script>
-    <script src="/js/tooltip.js"></script>
-
+    <!-- std libs ## -->
+    <link rel="stylesheet" href="css/globalindex.css">
+    <!--global css-->
+    <link rel="stylesheet" href="css/index.css">
+    <!--index page specific css-->
+    <style>
+        .bg {
+            height: 100% !important;
+            background: url(/media/bg/pexels-vlada-karpovich-7903129.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            color: white !important;
+        }
+    </style>
 </head>
 
-<body id="fadepage">
+<body>
+    <div class="bg" id="fadepage">
+        <div id="fadepageind" class="element">
+            <div class="container">
+                <!-- desk nav -->
+                <div class="row ht-100 notonmob">
+                    <div class="col-lg-4 my-auto">
+                        <h2 class="fow-700 txt-tog text-center">Hola, I'm Pratik.</h2>
+                    </div>
+                    <div class="col-lg-4"></div>
+                    <div class="col-lg-4 my-auto txt-tog">
+                        <h3 class="pb-1"><a href="/blog" class="linkreset fw-bold">Blog</a></h3>
+                        <h3 class="pb-1"><a href="/projects" class="linkreset fw-bold">Projects</a></h3>
+                        <h3 class="pb-1"><a href="https://iam.pratiknilange.in" target="_blank" class="linkreset fw-bold">IAM</a></h3>
+                        <h3 class="pb-1"><a href="/about" class="linkreset fw-bold">About</a></h3>
+                        <h3><a href="/contact" class="linkreset fw-bold">Contact</a></h3>
+                    </div>
+                </div>
 
-    <div class="container-fluid py-4">
-        <div id="navComp"></div>
-        <div class="py-4">
-            <p class="fw-bold" style="color: var(--pngray);">
-                <a href="https://rainaramsay.tumblr.com/post/170577096380/image-description-a-man-standing-on-camera-with" target="_blank" class="social-item" title="08 Aug, 2021">Try explaining this to someone 20 years ago</a>,
-                <a href="https://twitter.com/becky_brenn/status/1423646354493132800?s=20" target="_blank" class="social-item" title="08 Aug, 2021">Me right now</a>,
-                <a href="blog/yet-another-update/" class="blog-item" title="08 Aug, 2021">Yet another update</a>,
-                <a href="https://behance.net/nilange" target="_blank" class="work-item" title="08 Aug, 2021">Archived Behance</a>,
-                <a href="https://github.com/pnin/archived-project-avocado" target="_blank" class="blog-item" title="08 Aug, 2021">Archived project avocado</a>.
-            </p>
-            <p><small>Tread lightly, site under development ☔</small></p>
+                <!-- mob nav -->
+                <div class="onmob ht-70 row">
+                    <div class="my-auto">
+                        <div class="row">
+                            <div class="col-12 my-auto">
+                                <h1 class="txt-tog fow-700">Hola, I'm Pratik.</h1>
+                            </div>
+                        </div>
+                        <div class="row pt-4">
+                            <div class="col-12 my-auto txt-tog">
+
+                                <h2 class="pb-1"><a href="/blog" class="linkreset fow-700">Blog</a></h2>
+                                <h2 class="pb-1"><a href="/projects" class="linkreset fow-700">Projects</a></h2>
+                                <h2 class="pb-1"><a href="https://iam.pratiknilange.in" target="_blank" class="linkreset fow-700">IAM</a></h2>
+                                <h2 class="pb-1"><a href="/about" class="linkreset fow-700">About</a></h2>
+                                <h2><a href="/contact" class="linkreset fow-700">Contact</a></h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </body>
+<noscript>
+        <META HTTP-EQUIV="Refresh" CONTENT="0;URL=js-error.html">
+    </noscript>
 
 </html>

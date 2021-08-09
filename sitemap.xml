@@ -18,4 +18,16 @@
       <changefreq>daily</changefreq>
       <priority>1.0</priority>
 </url>
+<url>
+      <loc>https://pratiknilange.in/projects/</loc>
+      <lastmod>2005-01-01</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>1.0</priority>
+</url>
+<url>
+      <loc>https://pratiknilange.in/blog/</loc>
+      <lastmod>2005-01-01</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>1.0</priority>
+</url>
 </urlset>
