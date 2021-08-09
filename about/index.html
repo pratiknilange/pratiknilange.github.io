@@ -23,11 +23,14 @@
     <link rel=icon type=image/png href="../media/img/icon.png">
 
     <!-- std libs #-->
+    <script src="/global/bs/jquery-3.6.0.min.js"></script>
     <link rel="stylesheet" href="/global/bs/css/bootstrap.min.css">
     <!-- std libs ## -->
     <link rel="stylesheet" href="../css/global.css">
     <!--global css-->
     <script src="/js/main.js"></script>
+    <script src="/js/load.js" defer></script>
+    <script src="/js/components.js" defer></script>
     <link rel="stylesheet" href="../css/about.css">
     <!--index page specific css-->
     <style>
@@ -37,11 +40,12 @@
     </style>
 </head>
 
-<body class="mx-2 text-light" id="fadepage">
-    <div class="container pt-5 pb-5">
-        <h2 class="fow-700 text-primary-light"><a class="linkreset-inv" href="/"><i class="fas fa-arrow-left"></i></a></h2>
-        <div class="pt-5">
-            <h1 class="fow-800 txt-tog">Who is this guy anyway?</h1>
+<body class="pn-body text-light" id="fadepage">
+    <div class="pn-container">
+        <div id="backbtnlight"></div>
+        <!-- <h2 class="fow-700 text-primary-light"><a class="linkreset-inv" href="/"><i class="fas fa-arrow-left"></i></a></h2> -->
+        <div class="pn-pagecontent">
+            <div class="pn-pagetitle">Who is this guy anyway?</div>
             <h5 class="pt-4 txt-tog">
                 I'm an engineer and a self-taught graphic designer living in Bangalore. I also write about electronics (mostly processors), motorcycles, cars, cybersecurity, and cricket. I co-created The Boring Magazine, Gradiento, Internet Of Bings, The Circuit Breakers,
                 657th Studio, Nil 5tudio (sadly all of them are defunct A/O '21). I speak in English, Hindi, Marathi, Kannada, Spanish, and code in JS, HTML, CSS, C, C++, Python.
