@@ -16,6 +16,12 @@
     --pnpurple: #9C27B0;
     --pndarkgray: #777;
     --pnorange: orange;
+    --pndarkgray: #333;
+}
+
+::selection{
+    color: white;
+    background: var(--pndarkgray);
 }
 
 .red {
