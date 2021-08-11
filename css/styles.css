@@ -13,13 +13,14 @@
     --pngreen: #66BB6A;
     --pnblack: #000;
     --pngray: #d1d1d1;
+    --pndarkgray: #333;
+    --pnmidgray: #999;
     --pnpurple: #9C27B0;
     --pndarkgray: #777;
     --pnorange: orange;
-    --pndarkgray: #333;
 }
 
-::selection{
+::selection {
     color: white;
     background: var(--pndarkgray);
 }
@@ -131,7 +132,7 @@ a {
 }
 
 a:hover {
-    color: var(--pndarkgray);
+    color: var(--pnmidgray);
 }
 
 a.hometitle {
@@ -274,14 +275,14 @@ a.review-item-active:hover {
 
 /* other css */
 
-.tooltip{
+.tooltip {
     font-size: 17px;
 }
 
-.tooltip-inner{
+.tooltip-inner {
     background-color: #fff;
     color: var(--pngray);
-    white-space:nowrap;
+    white-space: nowrap;
     font-family: 'Inter';
     letter-spacing: normal;
 }
