@@ -259,7 +259,7 @@ a.review-item-active:hover {
 
 .tooltip-inner {
     background-color: var(--pndarkgray);
-    color: var(--pndark4);
+    color: var(--pndark3);
     white-space: nowrap;
     font-family: 'Inter', sans-serif;
     font-weight: 600;
