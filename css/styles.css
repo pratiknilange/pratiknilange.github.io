@@ -112,9 +112,17 @@ a.hometitle-light {
     color: var(--pnwhite);
 }
 
+a.hometitle-light:hover{
+    color: var(--pndark5);
+}
+
 a.hometitle-dark {
     font-family: 'Poppins', sans-serif;
     color: var(--pndark1);
+}
+
+a.hometitle-dark:hover{
+    color: var(--pndark4);
 }
 
 /* blog classes */
