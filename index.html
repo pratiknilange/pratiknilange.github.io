@@ -1,229 +1,57 @@
 <!DOCTYPE html>
-<html lang="en" translate="no" class="notranslate">
+<html lang="en" class="pn-html">
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="google" content="notranslate">
-    <title>Home</title>
+    <title>Pratik Nilange</title>
+    <meta name="description" content="tech, design, and lame jokes.">
 
-    <script src="global/jquery-3.6.0.min.js"></script>
-    <script src="/global/popper.min.js"></script>
-    <link rel="stylesheet" href="global/bs/css/bootstrap.min.css">
-    <script src="global/bs/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="css/styles.css">
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://pratiknilange.in/">
+    <meta property="og:title" content="Pratik Nilange">
+    <meta property="og:description" content="tech, design, and lame jokes.">
+    <meta property="og:image" content="https://pratiknilange.in/media/social/previews/SM_prev_1.png">
 
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://pratiknilange.in/">
+    <meta property="twitter:title" content="Pratik Nilange">
+    <meta property="twitter:description" content="tech, design, and lame jokes.">
+    <meta property="twitter:image" content="https://pratiknilange.in/media/social/previews/SM_prev_1.png">
+    <!-- meta tags end here -->
+    <link rel=icon type=image/png href="/media/std/icon.png">
+
+    <!-- res -->
+    <link rel="stylesheet" href="/global/bs/css/bootstrap.min.css">
+    <script src="/global/bs/js/bootstrap.min.js"></script>
+    <script src="/global/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="/css/styles.css">
 </head>
 
-<body id="fadepage" class="bgdark">
-
-    <div class="container-fluid py-4">
-        <div id="navComp"></div>
-        <div class="pb-4">
-            <p class="fw-bold" style="color: var(--pndark3);">
-                <a href="/blog/rivers-of-london/" class="blog-item">Rivers of London<sup>#1</sup></a>,
-                <a href="https://www.goodreads.com/review/show/3978557508" target="_blank" class="review-item" title="10 Aug, 2021">A Song of Ice and Fire (GOT #1)</a>,
-                <a href="https://iam.pratiknilange.in" target="_blank" class="blog-item" title="10 Aug, 2021">IAM</a>,
-                <a href="https://rainaramsay.tumblr.com/post/170577096380/image-description-a-man-standing-on-camera-with" target="_blank" class="social-item" title="08 Aug, 2021">Try explaining this to someone 20 years ago</a>,
-                <a href="https://twitter.com/becky_brenn/status/1423646354493132800?s=20" target="_blank" class="social-item" title="08 Aug, 2021">Me right now</a>,
-                <a href="blog/yet-another-update/" class="blog-item" title="08 Aug, 2021">Yet another update</a>,
-                <a href="https://behance.net/nilange" target="_blank" class="work-item" title="08 Aug, 2021">Archived Behance</a>,
-                <a href="https://github.com/pnin/archived-project-avocado" target="_blank" class="blog-item" title="08 Aug, 2021">Archived project avocado</a>.
-            </p>
+<body id="fadepage" class="pn-body">
+    <div id="navComp"></div>
+    <main class="pn-main">
+        <div class="container">
+            <div class="pn-pagecontent">
+                <div>
+                    <div class="pn-indpostdate">Jul 18, 2021 · <i title="code" class="fas fa-code"></i></div>
+                    <p class="h4"><a class="indlist" href="/posts/project-avocado/">Project Avocado</a> 🥑</p>
+                </div>
+                <!-- <div class="pn-inditem">
+                    <div class="pn-indpostdate">Jul 16, 2021</div>
+                    <p class="h4"><a class="indlist" href="#">npm update</a></p>
+                </div> -->
+            </div>
         </div>
-    </div>
+    </main>
+
+    <footer class="pn-footer">
+        <div id="stickyfooterComp"></div>
+    </footer>
 </body>
 
-<script>
-    // load.js
-
-    $("#navComp").load("/components/nav.html");
-    $("#navSmallComp").load("/components/navsmall.html");
-
-    // home.js
-
-    $(document).ajaxComplete(function () {
-
-        switch (window.location.hash) {
-            case '#blog':
-                // *
-                $(".blog-button").removeClass("blog-button-disable");
-                $(".blog-item").addClass("blog-item-active");
-
-                // work
-                $(".work-item").removeClass("work-item-active");
-                $(".works-button").addClass("works-button-disable");
-
-                // reviews
-                $(".review-item").removeClass("review-item-active");
-                $(".reviews-button").addClass("reviews-button-disable");
-
-                // social
-                $(".social-item").removeClass("social-item-active");
-                $(".social-button").addClass("social-button-disable");
-
-                // about
-                $(".about-button").addClass("about-button-disable");
-                break;
-            case "#works":
-                // blog
-                $(".blog-item").removeClass("blog-item-active");
-                $(".blog-button").addClass("blog-button-disable");
-
-                // *
-                $(".works-button").removeClass("works-button-disable");
-                $(".work-item").addClass("work-item-active");
-
-                // reviews
-                $(".review-item").removeClass("review-item-active");
-                $(".reviews-button").addClass("reviews-button-disable");
-
-                // social
-                $(".social-button").addClass("social-button-disable");
-                $(".social-item").removeClass("social-item-active");
-
-                // about
-                $(".about-button").addClass("about-button-disable");
-                break;
-            case "#reviews":
-                // blog
-                $(".blog-item").removeClass("blog-item-active");
-                $(".blog-button").addClass("blog-button-disable");
-
-                // work
-                $(".work-item").removeClass("work-item-active");
-                $(".works-button").addClass("works-button-disable");
-
-                // reviews
-                $(".reviews-button").removeClass("reviews-button-disable");
-                $(".review-item").addClass("review-item-active");
-
-                // work
-                $(".social-item").removeClass("social-item-active");
-                $(".social-button").addClass("social-button-disable");
-
-                // about
-                $(".about-button").addClass("about-button-disable");
-                break;
-            case "#social":
-                // blog
-                $(".blog-item").removeClass("blog-item-active");
-                $(".blog-button").addClass("blog-button-disable");
-
-                // work
-                $(".work-item").removeClass("work-item-active");
-                $(".works-button").addClass("works-button-disable");
-
-                // reviews
-                $(".review-item").removeClass("review-item-active");
-                $(".reviews-button").addClass("reviews-button-disable");
-
-                // *
-                $(".social-button").removeClass("social-button-disable");
-                $(".social-item").addClass("social-item-active");
-
-                // about
-                $(".about-button").addClass("about-button-disable");
-            default:
-            // code block
-        }
-
-        document.getElementById('blogbutton').onclick = blogitems;
-        document.getElementById('worksbutton').onclick = workitems;
-        document.getElementById('socialbutton').onclick = socialitems;
-        document.getElementById('reviewsbutton').onclick = reviewitems;
-
-        function blogitems() {
-            // *
-            $(".blog-button").removeClass("blog-button-disable");
-            $(".blog-item").addClass("blog-item-active");
-
-            // work
-            $(".work-item").removeClass("work-item-active");
-            $(".works-button").addClass("works-button-disable");
-
-            // reviews
-            $(".review-item").removeClass("review-item-active");
-            $(".reviews-button").addClass("reviews-button-disable");
-
-            // social
-            $(".social-item").removeClass("social-item-active");
-            $(".social-button").addClass("social-button-disable");
-
-            // about
-            $(".about-button").addClass("about-button-disable");
-        }
-        function workitems() {
-            // blog
-            $(".blog-item").removeClass("blog-item-active");
-            $(".blog-button").addClass("blog-button-disable");
-
-            // *
-            $(".works-button").removeClass("works-button-disable");
-            $(".work-item").addClass("work-item-active");
-
-            // reviews
-            $(".review-item").removeClass("review-item-active");
-            $(".reviews-button").addClass("reviews-button-disable");
-
-            // social
-            $(".social-button").addClass("social-button-disable");
-            $(".social-item").removeClass("social-item-active");
-
-            // about
-            $(".about-button").addClass("about-button-disable");
-        }
-        function reviewitems() {
-            // blog
-            $(".blog-item").removeClass("blog-item-active");
-            $(".blog-button").addClass("blog-button-disable");
-
-            // work
-            $(".work-item").removeClass("work-item-active");
-            $(".works-button").addClass("works-button-disable");
-
-            // reviews
-            $(".reviews-button").removeClass("reviews-button-disable");
-            $(".review-item").addClass("review-item-active");
-
-            // work
-            $(".social-item").removeClass("social-item-active");
-            $(".social-button").addClass("social-button-disable");
-
-            // about
-            $(".about-button").addClass("about-button-disable");
-        }
-        function socialitems() {
-            // blog
-            $(".blog-item").removeClass("blog-item-active");
-            $(".blog-button").addClass("blog-button-disable");
-
-            // work
-            $(".work-item").removeClass("work-item-active");
-            $(".works-button").addClass("works-button-disable");
-
-            // reviews
-            $(".review-item").removeClass("review-item-active");
-            $(".reviews-button").addClass("reviews-button-disable");
-
-            // *
-            $(".social-button").removeClass("social-button-disable");
-            $(".social-item").addClass("social-item-active");
-
-            // about
-            $(".about-button").addClass("about-button-disable");
-        }
-    });
-
-    // tooltip.js
-
-    $(document).ajaxComplete(function () {
-        var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
-        var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
-            return new bootstrap.Tooltip(tooltipTriggerEl)
-        })
-    });
-</script>
+<script src="/js/main.js"></script>
 
 </html>

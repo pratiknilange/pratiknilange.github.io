@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en" class="pn-html">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Avocado 🥑</title>
+    <meta name="description" content="tech, design, and lame jokes.">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://pratiknilange.in/posts/project-avocado">
+    <meta property="og:title" content="Project Avocado 🥑">
+    <meta property="og:description" content="The code wanderer">
+    <meta property="og:image" content="https://pratiknilange.in/media/social/previews/SM_prev_1.png">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://pratiknilange.in/posts/project-avocado">
+    <meta property="twitter:title" content="Project Avocado 🥑">
+    <meta property="twitter:description" content="The code wanderer">
+    <meta property="twitter:image" content="https://pratiknilange.in/media/social/previews/SM_prev_1.png">
+    <!-- meta tags end here -->
+    <link rel=icon type=image/png href="/media/std/icon.png">
+
+    <!-- res -->
+    <link rel="stylesheet" href="/global/bs/css/bootstrap.min.css">
+    <script src="/global/bs/js/bootstrap.min.js"></script>
+    <script src="/global/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="/global/prism/web/prism.css">
+    <script src="/global/prism/web/prism.js"></script>
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+
+<body id="fadepage" class="pn-body">
+    <div id="navComp"></div>
+    <main class="pn-main">
+        <div class="container">
+            <div class="pn-page">
+                <div class="pn-pagetitle">Project Avocado 🥑</div>
+                <div class="pn-postdate">Jul 18, 2021 · <i title="Code" class="fas fa-code"></i></div>
+                <div class="pn-pagecontent">
+                    <p>
+                        So what's new this time you ask? Well, <b>nothing</b>. Everything is pretty much the same. In fact, I've used some of the old site's stylesheets to build this site. Unlike all the previous versions, this one is here to stay, for long.
+                    </p>
+                    <div class="pn-subsectitle">
+                        <span id="La-motivacion">La motivacion</span> <a class="intlink" href="#La-motivacion">#</a>
+                    </div>
+                    <figure>
+                        <blockquote class="blockquote">
+                            <p>You want experimentation. Every once in awhile, you stumble upon something that blows your mind.</p>
+                        </blockquote>
+                        <figcaption class="blockquote-footer">A very cool guy from <cite>Yelp</cite></figcaption>
+                    </figure>
+                    <p>
+                        I've spent some time now (few weeks), searching for a minimal and easy-to-use framework, and in the process of experimentation, I've come across several wonderful tools.
+                        There are loads of templating processors and static site generators out there. Some are awesome, while others are just bad. In that unnervingly long list, <a class="reglink" href="https://jekyllrb.com/" target="blank">Jekyll</a> and <a class="reglink" href="https://www.gatsbyjs.com/" target="blank">Gatsby</a> hold the top spot (for obvious reasons).
+                        I've used both of them to build the previous versions of this site, and I liked both of them! But (there's always a but), the initial setup is time-consuming. Also, there's a slight chance of your code going rogue as so many dependencies are involved in the process of static site generation (of course the risk varies from site to site).
+                        The advantages of using one of them far outweigh the downsides though. Gatsby is unbelievably fast! (Just WOW). Jekyll is simple, easy to use, and also has GitHub Pages support.
+                    </p>
+                    <p>
+                        I personally don't like having too many dependencies as I believe that my particular use case does not require more than a couple of stylesheets and a script or two.
+                        Hence I had to shift my focus towards simpler CSS frameworks like Foundation, Pure, Bootstrap, Bulma, ... (this list is long too). I've used BS & Pure before so I knew the pros and cons of using this kind of framework.
+                        Scalability and uniformity are difficult to achieve, but I think it should be just fine for a simple use case like mine. So Powered by <b>twbs</b> it is!
+                    </p>
+                    <div class="pn-subsectitle">
+                        <span id="The-Usual-Stuff">The Usual stuff</span> <a class="intlink" href="#The-Usual-Stuff">#</a>
+                    </div>
+                    <p>
+                        As you might have already noticed (if you are viewing the desktop version), the <b>container</b> is narrow.
+                    </p>
+                    <pre class="pn-code"><code class="lang-css">.container {
+    width : auto;
+    max-width : 700px !important;
+}
+</code></pre>
+                    <p>
+                        There's no specific reason for the container to be 700px wide. It just looks nice. Here's a table of resources<sup>+</sup> that I've utilized to build this site.
+                    </p>
+                    <table class="table">
+                        <tr>
+                            <td><b>Fonts</b></td>
+                            <td>Twbs Native Stack, Inter by Rasmus Anderson</td>
+                        </tr>
+                        <tr>
+                            <td><b>JS</b></td>
+                            <td>Twbs, jQuery, PrismJS, Infinite-Scroll by metafizzy</td>
+                        </tr>
+                        <tr>
+                            <td><b>CSS</b></td>
+                            <td>Twbs, PrismJS</td>
+                        </tr>
+                        <tr>
+                            <td><b>Icons</b></td>
+                            <td>Bootstrap Icons, FontAwesome</td>
+                        </tr>
+                    </table>
+                    <p class="text-muted small">
+                        <sup>+</sup>Last updated on 18 July 2021
+                    </p>
+                    <p>It is evident that Twbs is sufficient as the site's design doesn't have anything whacky. It's all plain and simple</p>
+                    <div class="pn-subsectitle">
+                        <span id="The-Unusual-Stuff">The Unusual stuff</span> <a class="intlink" href="#The-Unusual-Stuff">#</a>
+                    </div>
+                    <p>
+                        The <b>navigation</b> and the <b>footer</b> have a weird thing going on.
+                        I have two files called <mark>nav.html</mark> and <mark>stickyfooter.html</mark> that have navbar and footer elements respectively. As I'm already making use of jQuery, I utilize the <mark>load</mark> function to load these components into all the pages on this site. This way I can seamlessly edit the nav and footer of all pages by simply editing the component files.
+                    </p>
+                    <pre class="pn-code"><code class="lang-js">// Nav Component
+
+$("#navComp").load("/components/nav.html");
+
+// Sticky Footer Component
+
+$("#stickyfooterComp").load("/components/stickyfooter.html");
+</code></pre>
+                    <p>
+                        I'm yet to face the consequences of using this unconventional method (if there are any). There's one more weird thing. I call it the <b>proxy class</b>.
+                        <span class="text-danger">Note - I understand that Semantic HTML is a pretty serious concept and is important for accessibility. I've just skipped that part while building this current version of the site (I have plans to work on that part in the later versions). So the people who are serious about
+                            the semantic stuff should immediately abandon the site because things are about to get messy.
+                        </span>
+                    </p>
+                    <p>
+                        Maintaining consistency is challenging while using CSS frameworks. There are just too many classes involved and overriding them isn't a good idea all the time.
+                        To overcome this issue, I've listed out some standard proxy classes that have a specific role and utilized the <mark>addClass</mark> function of jQuery to add the actual classes to the class-list of the element.
+                    </p>
+                    <pre class="pn-code"><code class="lang-js">$(".pn-html").addClass("h-100");
+$(".pn-body").addClass("d-flex flex-column h-100");
+$(".pn-main").addClass("flex-shrink-0 pb-3");
+$(".pn-page").addClass("pt-4");
+$(".pn-pagetitle").addClass("h1");
+$(".pn-postdate").addClass("text-muted mb-0");
+$(".pn-pagecontent").addClass("pt-4 pagecontent");
+$(".pn-subsectitle").addClass("h2 mb-3");
+$(".pn-code").addClass("my-4");
+$(".pn-footer").addClass("pagefooter mt-auto py-3");
+$(".pn-indpostdate").addClass("small text-muted mb-1");
+$(".pn-indposttitle").addClass("small text-muted mb-1");
+$(".pn-inditem").addClass("pt-4");
+</code></pre>
+                    <p>
+                        As I have to just use the proxy classes, the code looks less bulky, and I can be sure that elements have a proper class-list mapped to them, globally.
+                    </p>
+                    <pre class="pn-code"><code class="lang-html">&lt;!DOCTYPE html>
+&lt;html class="pn-html">
+&lt;body class="pn-body">
+    &lt;main class="pn-main">
+        &lt;div class="container">
+            &lt;div class="pn-page">
+                &lt;div class="pn-pagetitle">A nice title&lt;/div>
+                &lt;div class="pn-postdate">Feb 29, 2024&lt;/div>
+                &lt;div class="pn-pagecontent">
+                    &lt;p>Some text&lt;/p>
+                &lt;/div>
+            &lt;/div>
+        &lt;/div>
+    &lt;/main>
+    &lt;div class="pn-footer">&lt;/div>
+&lt;body>
+&lt;html>
+</code></pre>
+                    <p>
+                        The code sure looks clean but the methodology isn't good enough.
+                        I'm exploring the SASS/LESS option and it does seem pretty similar and systematic (Mixins). I'm a bit inclined towards experimenting with LESS first because SASS is Ruby-based and I've had a rough experience with Ruby-based stuff when I was using Jekyll.
+                    </p>
+                    <div class="pn-subsectitle">
+                        <span id="La-conclusión">La conclusión</span> <a href="#La-conclusión" class="intlink">#</a>
+                    </div>
+                    <p>
+                        In the next few weeks, I shall be working on making the markup more semantic, while preserving the structure. Twbs is huge, and overriding the classes doesn't produce desired output most of the time. But we need to start somewhere, don't we?
+                        As Samwise Gamgee once said, It's the job that's never started as takes the longest to finish.   
+                    </p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="pn-footer">
+        <div id="stickyfooterComp"></div>
+    </footer>
+</body>
+
+<script src="/js/main.js"></script>
+
+</html>

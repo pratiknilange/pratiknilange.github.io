@@ -1,54 +1,70 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="pn-html">
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About</title>
+    <meta name="description" content="tech, design, and lame jokes.">
 
-    <script src="/global/jquery-3.6.0.min.js"></script>
-    <script src="/global/popper.min.js"></script>
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://pratiknilange.in/about">
+    <meta property="og:title" content="About">
+    <meta property="og:description" content="tech, design, and lame jokes.">
+    <meta property="og:image" content="https://pratiknilange.in/media/social/previews/SM_prev_1.png">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://pratiknilange.in/about">
+    <meta property="twitter:title" content="About">
+    <meta property="twitter:description" content="tech, design, and lame jokes.">
+    <meta property="twitter:image" content="https://pratiknilange.in/media/social/previews/SM_prev_1.png">
+    <!-- meta tags end here -->
+    <link rel=icon type=image/png href="/media/std/icon.png">
+
+    <!-- res -->
     <link rel="stylesheet" href="/global/bs/css/bootstrap.min.css">
     <script src="/global/bs/js/bootstrap.min.js"></script>
+    <script src="/global/jquery-3.6.0.min.js"></script>
     <link rel="stylesheet" href="/css/styles.css">
-    <script src="/js/load.js" defer></script>
-    <script src="/js/tooltip.js"></script>
+    <script src="/js/main.js"></script>
 </head>
 
-<body id="fadepage">
-    <div class="container-fluid py-4">
-        <div>
-            <div id="navSmallComp"></div>
-            <p class="fw-bold black">
-                About me
-            </p>
+<body id="fadepage" class="pn-body">
+    <div id="navComp"></div>
+    <main class="pn-main">
+        <div class="container">
+            <div class="pn-page">
+                <h1 class="pn-pagetitle">About</h1>
+                <div class="pn-pagecontent">
+                    <p>
+                        I'm an engineer and a self-taught graphic designer living in Bangalore. I also write about
+                        electronics (mostly processors), motorcycles, cars, cybersecurity, and cricket. I co-created The
+                        Boring Magazine, Gradiento, Internet Of Bings, The Circuit Breakers,
+                        657th Studio, Nil 5tudio (sadly all of them are defunct A/O '21). I speak in English, Hindi,
+                        Marathi, Kannada, Spanish, and code in JS, HTML, CSS, C, C++, Python.
+                    </p>
+                    <p>
+                    <ul class="list-inline">
+                        <li class="list-inline-item"><a class="reglink" target="_blank" href="https://twitter.com/pnonf">Twt</a></li>
+                        <li class="list-inline-item ms-2"><a class="reglink" target="_blank" href="https://facebook.com/pratnil">Fb</a></li>
+                        <li class="list-inline-item ms-2"><a class="reglink" target="_blank" href="https://linkedin.com/in/npt">LkIn</a></li>
+                        <li class="list-inline-item ms-2"><a class="reglink" target="_blank" href="https://github.com/PratikNilange">Git</a></li>
+                        <li class="list-inline-item ms-2"><a class="reglink" target="_blank" href="mailto:pratik.nilange@icloud.com">@</a></li>
+                        <li class="list-inline-item ms-2"><a class="reglink" target="_blank" href="https://instagram.com/pratiknilange">Inst</a></li>
+                    </ul>
+                    </p>
+                </div>
+            </div>
         </div>
-        <div class="col-lg-6">
-            <p>
-                I'm an engineer and a self-taught graphic designer living in Bangalore. I also write about electronics (mostly processors), motorcycles, cars, cybersecurity, and cricket. I co-created The Boring Magazine, Gradiento, Internet Of Bings, The Circuit Breakers, 657th Studio, Nil 5tudio (sadly all of them are defunct A/O '21). I speak in English, Hindi, Marathi, Kannada, Spanish, and code in JS, HTML, CSS, C, C++, Python.
-            </p>
-            <p>
-                <a href="https://twitter.com/pnonf" target="_blank" class="black fw-semibold">Read my boring tweets</a>, <a href="https://linkedin.com/in/npt" target="blank" class="black fw-semibold">connect with me on LinkedIn</a>.
-            </p>
+    </main>
 
-            <hr>
-
-            <p class="fw-bold">
-                About the site
-            </p>
-            <p>
-                Hosted on GitHub Pages, Protected by Cloudflare.
-                Special thanks to Rasmus Anderson (for Inter Font), The Bootstrap Authors (for twbs).
-            </p>
-
-            <p class="fw-semibold">
-                Code - MIT <sup><a href="https://raw.githubusercontent.com/PratikNilange/pratiknilange.github.io/main/LICENSE" target="_blank" class="black">(Read License)</a></sup>, unless otherwise stated.
-                Everything else - © 2021 Pratik Nilange. All Rights Reserved.
-            </p>
-
-        </div>
-    </div>
+    <footer class="pn-footer">
+        <div id="stickyfooterComp"></div>
+    </footer>
 </body>
+
+<script src="/js/main.js"></script>
 
 </html>
