@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Pratik Nilange &#8211; Pratik Nilange</title>
+	<atom:link href="/author/pratiknilange/feed/" rel="self" type="application/rss+xml" />
+	<link></link>
+	<description>tech, design, and lame jokes.</description>
+	<lastBuildDate>Thu, 19 Aug 2021 17:38:45 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.8</generator>
+	<item>
+		<title>Namaste World</title>
+		<link>/2021/08/19/namaste-world/</link>
+		
+		<dc:creator><![CDATA[Pratik Nilange]]></dc:creator>
+		<pubDate>Thu, 19 Aug 2021 17:32:22 +0000</pubDate>
+				<category><![CDATA[Update]]></category>
+		<guid isPermaLink="false">/?p=35</guid>
+
+					<description><![CDATA[An obligatory Hello World post!]]></description>
+										<content:encoded><![CDATA[
+<figure class="wp-block-image size-large"><img loading="lazy" width="1024" height="342" src="/wp-content/uploads/2021/08/tumblr_po1bxrrtFb1vxg6x3o8_1280-1024x342.jpg" alt="" class="wp-image-39" srcset="/wp-content/uploads/2021/08/tumblr_po1bxrrtFb1vxg6x3o8_1280-1024x342.jpg 1024w, /wp-content/uploads/2021/08/tumblr_po1bxrrtFb1vxg6x3o8_1280-300x100.jpg 300w, /wp-content/uploads/2021/08/tumblr_po1bxrrtFb1vxg6x3o8_1280-768x256.jpg 768w, /wp-content/uploads/2021/08/tumblr_po1bxrrtFb1vxg6x3o8_1280.jpg 1280w" sizes="(max-width: 1024px) 100vw, 1024px" /><figcaption>A random picture</figcaption></figure>
+
+
+
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas nec accumsan nibh. Aliquam sit amet lobortis nunc, a posuere elit. Curabitur tempus eget tortor sed interdum. Fusce tincidunt dolor a ultricies mollis. Praesent ullamcorper quam quis ante venenatis laoreet. Donec justo lectus, eleifend eget nisl non, cursus cursus nulla. Ut sodales scelerisque ipsum ac ullamcorper. Pellentesque consectetur vulputate est, accumsan aliquam eros rhoncus quis. Integer ut metus et nulla vehicula tristique.</p>
+
+
+
+<p>Praesent non elit id justo lobortis ullamcorper. Ut arcu nisl, facilisis ut orci semper, hendrerit commodo urna. Mauris eros neque, pretium gravida semper et, viverra id arcu. Maecenas velit elit, mattis ac nibh in, laoreet dapibus mi. Donec sed neque placerat metus euismod mattis. Phasellus ut efficitur turpis, at cursus diam. Cras enim lectus, vulputate sed gravida non, consectetur nec erat. Pellentesque tempor felis ac erat facilisis, vitae feugiat neque auctor. Proin elit dui, tempus sed erat ut, vehicula vulputate massa. Donec quis urna eu erat egestas dapibus hendrerit at mauris. Vivamus nec pulvinar erat, in luctus magna. Mauris ante ligula, varius at nulla vitae, rutrum dignissim metus. Suspendisse potenti. Sed a enim sollicitudin, commodo sem eu, luctus arcu. Integer efficitur sit amet ante eget tristique.</p>
+
+
+
+<p>Suspendisse potenti. Sed a ipsum dui. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. In egestas posuere mauris, ut sodales lectus facilisis in. Nullam cursus diam metus, vel iaculis leo auctor sed. Proin congue enim finibus purus fermentum feugiat. Vestibulum in mattis sapien. Phasellus lacus quam, elementum ut aliquam ut, tincidunt non elit.</p>
+
+
+
+<p>Nunc cursus nec arcu eu congue. Vestibulum commodo ex non turpis dictum, ut sodales nunc molestie. Nam eleifend felis ut purus dictum pellentesque. Mauris ipsum mi, euismod vel turpis sit amet, fermentum fringilla quam. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec nec nisi venenatis, tincidunt tortor a, mattis quam. Quisque tincidunt est vitae molestie sodales. Nam a sollicitudin ipsum, id bibendum est. Duis tempor risus posuere mi mattis, a vehicula neque cursus.</p>
+
+
+
+<p>Etiam egestas lorem vel dictum laoreet. Nunc egestas nisl ac interdum posuere. Ut tempus, justo ut fringilla porta, dui erat consectetur mi, a imperdiet eros erat ut neque. Nullam et ante nec nisi volutpat faucibus. Fusce vehicula et nulla non posuere. Quisque aliquam aliquet consequat. In congue, lorem vitae venenatis suscipit, turpis mi maximus ipsum, nec commodo purus mi non est.</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+	</channel>
+</rss>

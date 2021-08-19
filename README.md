@@ -1,2 +1,0 @@
-# archived-project-avocado
-🥑
