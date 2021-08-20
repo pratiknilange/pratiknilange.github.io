@@ -8,8 +8,8 @@
 <channel>
 	<title>
 	Comments for Pratik Nilange	</title>
-	<atom:link href="/comments/feed/" rel="self" type="application/rss+xml" />
-	<link></link>
+	<atom:link href="https://pratiknilange.in/comments/feed/" rel="self" type="application/rss+xml" />
+	<link>https://pratiknilange.in</link>
 	<description>tech, design, and lame jokes.</description>
 	<lastBuildDate>Fri, 20 Aug 2021 15:42:57 +0000</lastBuildDate>
 	<sy:updatePeriod>
