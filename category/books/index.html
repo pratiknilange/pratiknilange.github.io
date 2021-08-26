@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en-US" class="respect-color-scheme-preference">
+<html lang="en-US">
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -28,7 +28,6 @@
 <link rel="stylesheet" id="twenty-twenty-one-style-css" href="https://pratiknilange.in/wp-content/themes/twentytwentyone/style.css?ver=1.4" media="all">
 <style id="twenty-twenty-one-style-inline-css">:root{--global--color-background: #ffffff;--global--color-primary: #000;--global--color-secondary: #000;--button--color-background: #000;--button--color-text-hover: #000;}</style>
 <link rel="stylesheet" id="twenty-twenty-one-print-style-css" href="https://pratiknilange.in/wp-content/themes/twentytwentyone/assets/css/print.css?ver=1.4" media="print">
-<link rel="stylesheet" id="tt1-dark-mode-css" href="https://pratiknilange.in/wp-content/themes/twentytwentyone/assets/css/style-dark-mode.css?ver=1.4" media="all">
 <link rel="https://api.w.org/" href="https://pratiknilange.in/wp-json/">
 <link rel="alternate" type="application/json" href="https://pratiknilange.in/wp-json/wp/v2/categories/5">
 <link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://pratiknilange.in/xmlrpc.php?rsd">
@@ -133,88 +132,7 @@
 </div>
 <!-- #page -->
 
-<script>document.body.classList.remove("no-js");</script><button id="dark-mode-toggler" class="fixed-bottom" aria-pressed="false" onclick="toggleDarkMode()">Dark Mode: <span aria-hidden="true"></span></button>		<style>#dark-mode-toggler > span {
-				margin-left: 5px;
-			}
-			#dark-mode-toggler > span::before {
-				content: 'Off';
-			}
-			#dark-mode-toggler[aria-pressed="true"] > span::before {
-				content: 'On';
-			}</style>
-
-		<script>function toggleDarkMode() { // jshint ignore:line
-	var toggler = document.getElementById( 'dark-mode-toggler' );
-
-	if ( 'false' === toggler.getAttribute( 'aria-pressed' ) ) {
-		toggler.setAttribute( 'aria-pressed', 'true' );
-		document.documentElement.classList.add( 'is-dark-theme' );
-		document.body.classList.add( 'is-dark-theme' );
-		window.localStorage.setItem( 'twentytwentyoneDarkMode', 'yes' );
-	} else {
-		toggler.setAttribute( 'aria-pressed', 'false' );
-		document.documentElement.classList.remove( 'is-dark-theme' );
-		document.body.classList.remove( 'is-dark-theme' );
-		window.localStorage.setItem( 'twentytwentyoneDarkMode', 'no' );
-	}
-}
-
-function twentytwentyoneIsDarkMode() {
-	var isDarkMode = window.matchMedia( '(prefers-color-scheme: dark)' ).matches;
-
-	if ( 'yes' === window.localStorage.getItem( 'twentytwentyoneDarkMode' ) ) {
-		isDarkMode = true;
-	} else if ( 'no' === window.localStorage.getItem( 'twentytwentyoneDarkMode' ) ) {
-		isDarkMode = false;
-	}
-
-	return isDarkMode;
-}
-
-function darkModeInitialLoad() {
-	var toggler = document.getElementById( 'dark-mode-toggler' ),
-		isDarkMode = twentytwentyoneIsDarkMode();
-
-	if ( isDarkMode ) {
-		document.documentElement.classList.add( 'is-dark-theme' );
-		document.body.classList.add( 'is-dark-theme' );
-	} else {
-		document.documentElement.classList.remove( 'is-dark-theme' );
-		document.body.classList.remove( 'is-dark-theme' );
-	}
-
-	if ( toggler && isDarkMode ) {
-		toggler.setAttribute( 'aria-pressed', 'true' );
-	}
-}
-
-function darkModeRepositionTogglerOnScroll() {
-
-	var toggler = document.getElementById( 'dark-mode-toggler' ),
-		prevScroll = window.scrollY || document.documentElement.scrollTop,
-		currentScroll,
-
-		checkScroll = function() {
-			currentScroll = window.scrollY || document.documentElement.scrollTop;
-			if (
-				currentScroll + ( window.innerHeight * 1.5 ) > document.body.clientHeight ||
-				currentScroll < prevScroll
-			) {
-				toggler.classList.remove( 'hide' );
-			} else if ( currentScroll > prevScroll && 250 < currentScroll ) {
-				toggler.classList.add( 'hide' );
-			}
-			prevScroll = currentScroll;
-		};
-
-	if ( toggler ) {
-		window.addEventListener( 'scroll', checkScroll );
-	}
-}
-
-darkModeInitialLoad();
-darkModeRepositionTogglerOnScroll();
-</script>	<script>
+<script>document.body.classList.remove("no-js");</script>	<script>
 	if ( -1 !== navigator.userAgent.indexOf( 'MSIE' ) || -1 !== navigator.appVersion.indexOf( 'Trident/' ) ) {
 		document.body.classList.add( 'is-IE' );
 	}
