@@ -212,7 +212,7 @@ a.sidebar-nav-item:focus {
 /* Style the `label` that we use to target the `.sidebar-checkbox` */
 .sidebar-toggle {
   position: absolute;
-  top:  .7rem;
+  top:  .8rem;
   left: 1rem;
   display: flex;
   align-items: center;
@@ -500,14 +500,12 @@ a.pagination-item:hover {
 .theme-base-0d .sidebar,
 .theme-base-0d .sidebar-toggle:active,
 .theme-base-0d #sidebar-checkbox:checked ~ .sidebar-toggle {
-/*   background-color: #6a9fb5; */
-  background-color: #42A5F5;
+  background-color: #6a9fb5;
 }
 .theme-base-0d .container a,
 .theme-base-0d .sidebar-toggle,
 .theme-base-0d .related-posts li a:hover {
-/*   color: #6a9fb5; */
-  color: #42A5F5;
+  color: #6a9fb5;
 }
 
 /* Magenta */
