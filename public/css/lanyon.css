@@ -317,7 +317,7 @@ a.sidebar-nav-item:focus {
 .post-title,
 .post-title a {
   /* color: #303030; */
-  color: #268bd2;
+  color: #29B6F6;
 }
 .page-title,
 .post-title {
@@ -350,7 +350,8 @@ a.sidebar-nav-item:focus {
   color: #999;
 }
 .related-posts li a:hover {
-  color: #268bd2;
+  /* color: #268bd2; */
+  color: #29B6F6;
   text-decoration: none;
 }
 .related-posts li a:hover small {
