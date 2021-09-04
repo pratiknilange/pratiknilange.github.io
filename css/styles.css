@@ -48,6 +48,7 @@
 /* main */
 
 html, body {
+    color: black;
     font-family: 'Inter';
 }
 
@@ -126,7 +127,8 @@ a {
 a.link {
     color: var(--pnblack);
     text-decoration: underline;
-    text-underline-offset: 0.2em;
+    text-underline-offset: 0.15em;
+    text-decoration-thickness: 0.15em;
     font-weight: 500;
 }
 
@@ -135,7 +137,8 @@ a.link:hover {
     color: inherit;
     text-decoration: underline;
     text-decoration-style: dotted;
-    text-underline-offset: 0.2em;
+    text-underline-offset: 0.15em;
+    text-decoration-thickness: 0.15em;
 }
 
 a.hometitle {
@@ -276,10 +279,11 @@ a.review-item-active:hover {
     color: var(--pnblack);
 }
 
-/* other css */
+/* tooltip */
 
 .tooltip {
     font-size: 17px;
+    display: none;
 }
 
 .tooltip-inner {
@@ -294,6 +298,38 @@ a.review-item-active:hover {
     display: none !important;
 }
 
+/* other css */
+
 .date {
     color: var(--pnmidgray);
 }
+
+/* media queries */
+
+/* X-Small devices (portrait phones, less than 576px) */
+
+/* No media query for `xs` since this is the default in Bootstrap */
+
+/* Small devices (landscape phones, 576px and up) */
+
+@media (min-width: 576px) {}
+
+/* Medium devices (tablets, 768px and up) */
+
+@media (min-width: 768px) {
+    .tooltip {
+        display: unset;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+
+@media (min-width: 992px) {}
+
+/* X-Large devices (large desktops, 1200px and up) */
+
+@media (min-width: 1200px) {}
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+
+@media (min-width: 1400px) {}
