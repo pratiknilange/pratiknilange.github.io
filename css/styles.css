@@ -45,6 +45,10 @@
     color: var(--pnmidgray);
 }
 
+.orange{
+    color: var(--pnorange);
+}
+
 /* main */
 
 html, body {
