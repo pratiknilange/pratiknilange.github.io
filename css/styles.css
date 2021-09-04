@@ -125,7 +125,7 @@ a {
 
 a.link {
     color: var(--pnblack);
-    text-decoration: underline;
+    /* text-decoration: underline; */
     text-underline-offset: 0.2em;
     font-weight: 500;
 }
