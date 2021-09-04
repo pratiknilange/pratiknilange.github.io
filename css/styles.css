@@ -45,7 +45,7 @@
     color: var(--pnmidgray);
 }
 
-.orange{
+.orange {
     color: var(--pnorange);
 }
 
@@ -282,25 +282,6 @@ a.review-item-active:hover {
     color: var(--pnblack);
 }
 
-/* tooltip */
-
-.tooltip {
-    font-size: 17px;
-    display: none;
-}
-
-.tooltip-inner {
-    background-color: #fff;
-    color: var(--pngray);
-    white-space: nowrap;
-    font-family: 'Inter';
-    letter-spacing: normal;
-}
-
-.tooltip-arrow {
-    display: none !important;
-}
-
 /* other css */
 
 .date {
@@ -319,11 +300,7 @@ a.review-item-active:hover {
 
 /* Medium devices (tablets, 768px and up) */
 
-@media (min-width: 768px) {
-    .tooltip {
-        display: unset;
-    }
-}
+@media (min-width: 768px) {}
 
 /* Large devices (desktops, 992px and up) */
 
