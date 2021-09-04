@@ -128,17 +128,16 @@ a.link {
     color: var(--pnblack);
     text-decoration: underline;
     text-underline-offset: 0.15em;
-    text-decoration-thickness: 0.15em;
+    /* text-decoration-thickness: 0.15em; */
     font-weight: 500;
 }
 
 a.link:hover {
-    /* color: var(--pnmidgray); */
     color: inherit;
     text-decoration: underline;
     text-decoration-style: dotted;
     text-underline-offset: 0.15em;
-    text-decoration-thickness: 0.15em;
+    /* text-decoration-thickness: 0.15em; */
 }
 
 a.hometitle {
