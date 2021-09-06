@@ -59,11 +59,11 @@ html, body {
 /* Fade page */
 
 #fadepage {
-    -webkit-animation: fadein 0.75s;
+    /* -webkit-animation: fadein 0.75s;
     -moz-animation: fadein 0.75s;
     -ms-animation: fadein 0.75s;
     -o-animation: fadein 0.75s;
-    animation: fadein 0.75s;
+    animation: fadein 0.75s; */
 }
 
 @keyframes fadein {
