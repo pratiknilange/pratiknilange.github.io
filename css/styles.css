@@ -59,11 +59,11 @@ html, body {
 /* Fade page */
 
 #fadepage {
-    -webkit-animation: fadein 0.75s;
-    -moz-animation: fadein 0.75s;
-    -ms-animation: fadein 0.75s;
-    -o-animation: fadein 0.75s;
-    animation: fadein 0.75s;
+    -webkit-animation: fadein 0.15s;
+    -moz-animation: fadein 0.15s;
+    -ms-animation: fadein 0.15s;
+    -o-animation: fadein 0.15s;
+    animation: fadein 0.15s;
 }
 
 @keyframes fadein {
@@ -133,7 +133,7 @@ a.link {
     text-decoration: underline;
     text-underline-offset: 0.15em;
     /* text-decoration-thickness: 0.15em; */
-    font-weight: 500;
+    /* font-weight: 500; */
 }
 
 a.link:hover {
