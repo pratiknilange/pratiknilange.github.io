@@ -2,6 +2,7 @@
 
 .page{
     @extend .container;
+    @extend .col-11;
     @extend .col-lg-6;
     @extend .mx-auto;
     @extend .py-4;

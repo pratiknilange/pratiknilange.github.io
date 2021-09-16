@@ -1,6 +1,7 @@
 /* Fonts */
 
 @import url(/css/fonts.css);
+@import url(/global/fontawesome-free-5.15.3-web/fontawesome-free-5.15.3-web/css/all.min.css);
 
 
 /* Root */
@@ -127,15 +128,15 @@ a {
 }
 
 a.link {
-    color: var(--pnblack);
-    text-decoration: underline;
+    color: var(--pnblue);
+    text-decoration: none;
     text-underline-offset: 0.15em;
     /* text-decoration-thickness: 0.15em; */
     /* font-weight: 500; */
 }
 
 a.link:hover {
-    color: inherit;
+    color: var(--pnblue);
     text-decoration: underline;
     text-decoration-style: dashed;
     text-underline-offset: 0.15em;
@@ -284,6 +285,10 @@ a.review-item-active:hover {
 
 .date {
     color: var(--pnmidgray);
+}
+
+.vsmall{
+    font-size: small;
 }
 
 /* media queries */
