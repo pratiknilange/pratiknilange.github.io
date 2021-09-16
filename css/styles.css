@@ -1,9 +1,7 @@
 /* Fonts */
 
 @import url(/css/fonts.css);
-.fw-semibold {
-    font-weight: 500;
-}
+
 
 /* Root */
 
@@ -139,7 +137,7 @@ a.link {
 a.link:hover {
     color: inherit;
     text-decoration: underline;
-    text-decoration-style: dotted;
+    text-decoration-style: dashed;
     text-underline-offset: 0.15em;
     /* text-decoration-thickness: 0.15em; */
 }
