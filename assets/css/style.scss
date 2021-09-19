@@ -5,3 +5,17 @@
 @import
   "minima/skins/{{ site.minima.skin | default: 'classic' }}",
   "minima/initialize";
+
+
+img{
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+}
+
+.gray{
+  color: lightgray;
+}
+
+.text-center{
+  text-align: center;
+}

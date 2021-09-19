@@ -51,6 +51,8 @@ minima:
 #header_pages:
 # - about.md
 
+url: https://pratiknilange.in
+
 # Build settings
 theme: minima
 
