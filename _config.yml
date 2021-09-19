@@ -54,6 +54,9 @@ minima:
 # Build settings
 theme: minima
 
+paginate: 5
+
 plugins:
  - jekyll-feed
  - jekyll-seo-tag
+ - jekyll-paginate
