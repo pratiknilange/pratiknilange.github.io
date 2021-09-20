@@ -56,7 +56,7 @@ url: https://pratiknilange.in
 # Build settings
 theme: minima
 
-paginate: 5
+paginate: 10
 
 plugins:
  - jekyll-feed
