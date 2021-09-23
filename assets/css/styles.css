@@ -1,0 +1,10 @@
+img {
+    width: 100%;
+}
+
+.img-caption {
+    text-align: center;
+    color: gray;
+}
+
+.menu ul span { float: left; }
