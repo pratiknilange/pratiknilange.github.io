@@ -9,8 +9,15 @@ img {
     color: gray;
 }
 
-.menu ul span { float: left; }
+
+
+.menu ul span { float: left; font-weight: bold;}
 
 body{
     font-family: 'Noto Sans Mono', monospace;
+}
+
+main p, h1{
+    margin-top: 0;
+    margin-bottom: 1rem;
 }
