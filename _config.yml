@@ -1,20 +1,62 @@
-# Example Site settings
-
-#google_analytics: UA-NNNNNNNN-N
-
+site: Pratik Nilange
+url: https://pratiknilange.in #yoururl
 title: Pratik Nilange
+description: tech, design, and lame jokes.
+twitter:
+  username: pnonf #yourusername
+  card: summary
+  creator: pnonf #yourusername
+author:
+  twitter: pnonf #yourusername
+  name: pnonf #yourusername
+  avatar:
+  email: #youremail
+  url: pratiknilange.in #yoururl
+permalink: pretty
 
-url: https://pratiknilange.in
+baseurl: ""
 
-header_pages:
-  - index.md
-  - about.md
-  - work.md
+highlighter: none
 
-footer: 'bad puns on <a target="_blank" href="https://twitter.com/pnonf">twitter</a>'
+exclude:
+  - .jekyll-cache
+  
+compress_html:
+  clippings: all
+  comments: ["<!-- ", " -->"]
 
-style: light # dark (default) or light
-#listen_for_clients_preferred_style: true # true or false (default)
+sass:
+  sass_dir:          _sass
+  style:            :compressed
 
 plugins:
+  - jekyll-paginate
   - jekyll-seo-tag
+  - jekyll-sitemap  
+
+collections:
+  pages:
+    output: true
+    permalink: /:name
+  posts:
+    output: true
+    permalink: /:year/:month/:day/:slug
+  
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: "default"
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
