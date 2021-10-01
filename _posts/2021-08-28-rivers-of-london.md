@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Rivers of London
+title: Rivers of London 📚
 excerpt: Reading a crime title after a pretty long time..
 ---
 
