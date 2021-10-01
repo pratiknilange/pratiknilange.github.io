@@ -1,5 +1,5 @@
 ---
-# Only the main Sass file needs front matter (the dashes are enough)
+
 ---
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
@@ -17,6 +17,7 @@ body{
 img{
   padding-top: 0.25rem;
   padding-bottom: 0.25rem;
+  border-radius: 0.5em;
 }
 
 img.nopadding{
