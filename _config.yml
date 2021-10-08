@@ -60,3 +60,5 @@ defaults:
       type: "posts"
     values:
       layout: "post"
+
+destination: docs
