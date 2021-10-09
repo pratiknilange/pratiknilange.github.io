@@ -46,16 +46,20 @@ pre {
 	margin: 2rem 0;
 }
 
-code,pre {
-	background: rgb(236, 237, 238);
-}
+// code,pre {
+// 	background: rgb(236, 237, 238);
+// }
 
-code {
-	padding: .1rem;
-}
+// code {
+// 	padding: .1rem;
+// }
 
-pre code {
-	border: none;
+// pre code {
+// 	border: none;
+// }
+
+pre {
+	box-shadow: 0 0 15px rgba(0,0,0,0.4),0 0 1px rgba(0,0,0,.06),0 2px 2px rgba(0,0,0,.06),0 4px 4px rgba(0,0,0,.06),0 8px 8px rgba(0,0,0,.06),0 16px 16px rgba(0,0,0,.06);
 }
 
 pre {

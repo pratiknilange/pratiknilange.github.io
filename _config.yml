@@ -62,3 +62,9 @@ defaults:
       layout: "post"
 
 destination: docs
+
+markdown: kramdown
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
