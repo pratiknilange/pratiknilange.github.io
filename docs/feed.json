@@ -1,11 +1,11 @@
 {
     "version": "https://jsonfeed.org/version/1",
     "title": "Pratik Nilange",
-    "home_page_url": "http://localhost:4000/",
-    "feed_url": "http://localhost:4000/feed.json",
+    "home_page_url": "https://pratiknilange.in/",
+    "feed_url": "https://pratiknilange.in/feed.json",
     "description": "musings on tech, design, life.",
-    "icon": "http://localhost:4000/apple-touch-icon.png",
-    "favicon": "http://localhost:4000/favicon.ico",
+    "icon": "https://pratiknilange.in/apple-touch-icon.png",
+    "favicon": "https://pratiknilange.in/favicon.ico",
     "expired": false,
     
     "author":  {
@@ -17,12 +17,12 @@
 "items": [
     
         {
-            "id": "http://localhost:4000/2021/10/08/welcome-back-air-india",
-            "title": "Welcome back, Air India",
+            "id": "https://pratiknilange.in/2021/10/08/homecoming-for-the-maharaja",
+            "title": "Homecoming for the Maharaja 👑",
             "summary": null,
-            "content_text": "Homecoming for the Maharaja 👑Welcome back, Air India 🛬🏠 pic.twitter.com/euIREDIzkV&mdash; Ratan N. Tata (@RNTata2000) October 8, 2021",
-            "content_html": "<p>Homecoming for the Maharaja 👑</p><blockquote class=\"twitter-tweet\"><p lang=\"en\" dir=\"ltr\">Welcome back, Air India 🛬🏠 <a href=\"https://t.co/euIREDIzkV\">pic.twitter.com/euIREDIzkV</a></p>&mdash; Ratan N. Tata (@RNTata2000) <a href=\"https://twitter.com/RNTata2000/status/1446431109122650118?ref_src=twsrc%5Etfw\">October 8, 2021</a></blockquote><script async=\"\" src=\"https://platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>",
-            "url": "http://localhost:4000/2021/10/08/welcome-back-air-india",
+            "content_text": "Welcome back, Air India 🛬🏠 pic.twitter.com/euIREDIzkV&mdash; Ratan N. Tata (@RNTata2000) October 8, 2021",
+            "content_html": "<blockquote class=\"twitter-tweet\"><p lang=\"en\" dir=\"ltr\">Welcome back, Air India 🛬🏠 <a href=\"https://t.co/euIREDIzkV\">pic.twitter.com/euIREDIzkV</a></p>&mdash; Ratan N. Tata (@RNTata2000) <a href=\"https://twitter.com/RNTata2000/status/1446431109122650118?ref_src=twsrc%5Etfw\">October 8, 2021</a></blockquote><script async=\"\" src=\"https://platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>",
+            "url": "https://pratiknilange.in/2021/10/08/homecoming-for-the-maharaja",
             
             
             
@@ -41,12 +41,12 @@
         },
     
         {
-            "id": "http://localhost:4000/2021/09/19/ets2-renault-t",
+            "id": "https://pratiknilange.in/2021/09/19/ets2-renault-t",
             "title": "ETS2 - Renault T 380",
             "summary": null,
             "content_text": "Here are some low res pictures of my new virtual ride - Renault T 380. And yeah, it has got a Russian plate!",
             "content_html": "<p>Here are some low res pictures of my new virtual ride - <strong>Renault T 380</strong>. And yeah, it has got a Russian plate!</p><p><img src=\"/assets/media/img/ets2_20210919_114904_00.png\" alt=\"\" /></p><p><img src=\"/assets/media/img/ets2_20210919_115005_00.png\" alt=\"\" /></p><p><img src=\"/assets/media/img/ets2_20210919_115025_00.png\" alt=\"\" /></p>",
-            "url": "http://localhost:4000/2021/09/19/ets2-renault-t",
+            "url": "https://pratiknilange.in/2021/09/19/ets2-renault-t",
             "image": "/assets/media/img/ets2_20210919_115025_00.png",
             
             
@@ -65,12 +65,12 @@
         },
     
         {
-            "id": "http://localhost:4000/2021/09/19/huion-hs64",
+            "id": "https://pratiknilange.in/2021/09/19/huion-hs64",
             "title": "Huion HS64",
             "summary": null,
             "content_text": "Huion's HS64 graphic tabletI had ordered Huion’s HS64 from Amazon some days ago. It works pretty well. I liked the pen’s grip, the tablet feels sturdy, but there are some tiny scratches already. I will be creating some stuff with it till I run out of nibs (8 of them available in the box), only after which I would be mentally ready for an Apple pencil kind of commitment.",
             "content_html": "<p><img src=\"/assets/media/img/IMG_20210919_100424-01.jpeg\" alt=\"Huion HS64\" /></p><figcaption>Huion's HS64 graphic tablet</figcaption><p>I had ordered Huion’s HS64 from Amazon some days ago. It works pretty well. I liked the pen’s grip, the tablet feels sturdy, but there are some tiny scratches already. I will be creating some stuff with it till I run out of nibs (8 of them available in the box), only after which I would be mentally ready for an Apple pencil kind of commitment.</p>",
-            "url": "http://localhost:4000/2021/09/19/huion-hs64",
+            "url": "https://pratiknilange.in/2021/09/19/huion-hs64",
             "image": "/assets/media/img/IMG_20210919_100424-01.jpeg",
             
             
@@ -89,12 +89,12 @@
         },
     
         {
-            "id": "http://localhost:4000/2021/08/28/rivers-of-london",
+            "id": "https://pratiknilange.in/2021/08/28/rivers-of-london",
             "title": "Rivers of London",
             "summary": null,
             "content_text": "Reading a crime title after a pretty long time. Rivers of London by Ben Aaronovitch.",
             "content_html": "<p>Reading a crime title after a pretty long time. <a href=\"https://www.goodreads.com/book/show/9317452-rivers-of-london\">Rivers of London</a> by Ben Aaronovitch.</p>",
-            "url": "http://localhost:4000/2021/08/28/rivers-of-london",
+            "url": "https://pratiknilange.in/2021/08/28/rivers-of-london",
             
             
             
@@ -113,12 +113,12 @@
         },
     
         {
-            "id": "http://localhost:4000/2021/08/19/namaste-world",
+            "id": "https://pratiknilange.in/2021/08/19/namaste-world",
             "title": "Namaste World",
             "summary": null,
             "content_text": "An obligatory Hello World post!",
             "content_html": "<p>An obligatory Hello World post!</p>",
-            "url": "http://localhost:4000/2021/08/19/namaste-world",
+            "url": "https://pratiknilange.in/2021/08/19/namaste-world",
             
             
             
@@ -137,12 +137,12 @@
         },
     
         {
-            "id": "http://localhost:4000/2021/03/14/field-trip",
+            "id": "https://pratiknilange.in/2021/03/14/field-trip",
             "title": "Field trip",
             "summary": null,
             "content_text": "Somewhere in Karnataka.",
             "content_html": "<p><img src=\"/assets/media/img/field-pic-1.jpeg\" alt=\"Somewhere in Karnataka\" title=\"Somewhere in Karnataka\" /></p><p>Somewhere in Karnataka.</p>",
-            "url": "http://localhost:4000/2021/03/14/field-trip",
+            "url": "https://pratiknilange.in/2021/03/14/field-trip",
             
             
             
@@ -161,12 +161,12 @@
         },
     
         {
-            "id": "http://localhost:4000/2019/07/23/staticman-comments-on-a-jekyll-site",
+            "id": "https://pratiknilange.in/2019/07/23/staticman-comments-on-a-jekyll-site",
             "title": "Staticman comments on a Jekyll site",
             "summary": "Generating comments on static sites with Staticman",
             "content_text": "Lorem ipsum dolor amet tousled viral art party blue bottle single-origin coffee cardigan, selvage man braid helvetica. Banh mi taxidermy meditation microdosing. Selvage cornhole YOLO, small batch vexillologist raclette VHS prism sustainable 8-bit ugh semiotics letterpress disrupt pop-up. Celiac shabby chic ugh, jianbing whatever kitsch tattooed edison bulb kogi irony etsy.Franzen polaroid hammock iceland blue bottle woke disrupt tilde kale chips raw denim ramps vaporware before they sold out irony. Narwhal vaporware offal shaman celiac kinfolk activated charcoal salvia lomo irony readymade normcore. Yr activated charcoal kombucha, man braid whatever biodiesel hella crucifix adaptogen bicycle rights small batch skateboard mixtape. Hot chicken sustainable green juice 90’s. Ennui kickstarter hella pug, meggings man bun shaman messenger bag. Chambray adaptogen kombucha pug affogato, kogi green juice distillery ugh banh mi.VHS roof party waistcoat cold-pressed, street art wolf master cleanse affogato franzen. Shaman iceland pour-over intelligentsia typewriter tilde, pitchfork copper mug. Wayfarers kickstarter adaptogen vinyl beard kombucha. Organic pinterest master cleanse, mixtape fam gentrify lo-fi kogi.Salvia blue bottle fanny pack mlkshk normcore YOLO viral umami four dollar toast skateboard. Chambray taxidermy slow-carb street art chartreuse. Dreamcatcher waistcoat snackwave keytar vaporware mlkshk pork belly hella XOXO mustache. Tattooed semiotics edison bulb, disrupt polaroid craft beer vape enamel pin bespoke flannel letterpress brooklyn subway tile copper mug. Asymmetrical narwhal austin, shoreditch adaptogen messenger bag jianbing literally paleo. Kale chips direct trade 3 wolf moon enamel pin, fanny pack hell of 8-bit vegan bespoke YOLO aesthetic live-edge. Retro succulents before they sold out whatever bushwick.Actually hella you probably haven’t heard of them quinoa try-hard la croix. Street art schlitz actually hell of pour-over air plant. Post-ironic franzen brunch mumblecore readymade. Food truck photo booth polaroid, gochujang vegan street art yr before they sold out man bun. Tilde selfies chia pitchfork everyday carry post-ironic mumblecore sartorial VHS master cleanse activated charcoal biodiesel williamsburg cronut jean shorts. Poutine helvetica keffiyeh butcher pop-up.",
             "content_html": "<p>Lorem ipsum dolor amet tousled viral art party blue bottle single-origin coffee cardigan, selvage man braid helvetica. Banh mi taxidermy meditation microdosing. Selvage cornhole YOLO, small batch vexillologist raclette VHS prism sustainable 8-bit ugh semiotics letterpress disrupt pop-up. Celiac shabby chic ugh, jianbing whatever kitsch tattooed edison bulb kogi irony etsy.</p><p>Franzen polaroid hammock iceland blue bottle woke disrupt tilde kale chips raw denim ramps vaporware before they sold out irony. Narwhal vaporware offal shaman celiac kinfolk activated charcoal salvia lomo irony readymade normcore. Yr activated charcoal kombucha, man braid whatever biodiesel hella crucifix adaptogen bicycle rights small batch skateboard mixtape. Hot chicken sustainable green juice 90’s. Ennui kickstarter hella pug, meggings man bun shaman messenger bag. Chambray adaptogen kombucha pug affogato, kogi green juice distillery ugh banh mi.</p><p>VHS roof party waistcoat cold-pressed, street art wolf master cleanse affogato franzen. Shaman iceland pour-over intelligentsia typewriter tilde, pitchfork copper mug. Wayfarers kickstarter adaptogen vinyl beard kombucha. Organic pinterest master cleanse, mixtape fam gentrify lo-fi kogi.</p><p>Salvia blue bottle fanny pack mlkshk normcore YOLO viral umami four dollar toast skateboard. Chambray taxidermy slow-carb street art chartreuse. Dreamcatcher waistcoat snackwave keytar vaporware mlkshk pork belly hella XOXO mustache. Tattooed semiotics edison bulb, disrupt polaroid craft beer vape enamel pin bespoke flannel letterpress brooklyn subway tile copper mug. Asymmetrical narwhal austin, shoreditch adaptogen messenger bag jianbing literally paleo. Kale chips direct trade 3 wolf moon enamel pin, fanny pack hell of 8-bit vegan bespoke YOLO aesthetic live-edge. Retro succulents before they sold out whatever bushwick.</p><p>Actually hella you probably haven’t heard of them quinoa try-hard la croix. Street art schlitz actually hell of pour-over air plant. Post-ironic franzen brunch mumblecore readymade. Food truck photo booth polaroid, gochujang vegan street art yr before they sold out man bun. Tilde selfies chia pitchfork everyday carry post-ironic mumblecore sartorial VHS master cleanse activated charcoal biodiesel williamsburg cronut jean shorts. Poutine helvetica keffiyeh butcher pop-up.</p>",
-            "url": "http://localhost:4000/2019/07/23/staticman-comments-on-a-jekyll-site",
+            "url": "https://pratiknilange.in/2019/07/23/staticman-comments-on-a-jekyll-site",
             
             
             
