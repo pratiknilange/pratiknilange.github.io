@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
  <title>Pratik Nilange</title>
- <link href="http://localhost:4000/atom.xml" rel="self"/>
- <link href="http://localhost:4000/"/>
- <updated>2021-10-13T22:21:07+05:30</updated>
- <id>http://localhost:4000</id>
+ <link href="https://pratiknilange.in/atom.xml" rel="self"/>
+ <link href="https://pratiknilange.in/"/>
+ <updated>2021-10-15T21:28:37+05:30</updated>
+ <id>https://pratiknilange.in</id>
  <author>
    <name>pnonf</name>
    <email></email>
@@ -14,9 +14,9 @@
  
  <entry>
    <title>Homecoming for the Maharaja 👑</title>
-   <link href="http://localhost:4000/2021/10/08/homecoming-for-the-maharaja"/>
+   <link href="https://pratiknilange.in/2021/10/08/homecoming-for-the-maharaja"/>
    <updated>2021-10-08T00:00:00+05:30</updated>
-   <id>http://localhost:4000/2021/10/08/homecoming-for-the-maharaja</id>
+   <id>https://pratiknilange.in/2021/10/08/homecoming-for-the-maharaja</id>
    <content type="html">&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Welcome back, Air India 🛬🏠 &lt;a href=&quot;https://t.co/euIREDIzkV&quot;&gt;pic.twitter.com/euIREDIzkV&lt;/a&gt;&lt;/p&gt;&amp;mdash; Ratan N. Tata (@RNTata2000) &lt;a href=&quot;https://twitter.com/RNTata2000/status/1446431109122650118?ref_src=twsrc%5Etfw&quot;&gt;October 8, 2021&lt;/a&gt;&lt;/blockquote&gt;
 &lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
 
@@ -25,9 +25,9 @@
  
  <entry>
    <title>ETS2 - Renault T 380</title>
-   <link href="http://localhost:4000/2021/09/19/ets2-renault-t"/>
+   <link href="https://pratiknilange.in/2021/09/19/ets2-renault-t"/>
    <updated>2021-09-19T12:12:00+05:30</updated>
-   <id>http://localhost:4000/2021/09/19/ets2-renault-t</id>
+   <id>https://pratiknilange.in/2021/09/19/ets2-renault-t</id>
    <content type="html">&lt;p&gt;Here are some low res pictures of my new virtual ride - &lt;strong&gt;Renault T 380&lt;/strong&gt;. And yeah, it has got a Russian plate!&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/media/img/ets2_20210919_114904_00.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
@@ -40,9 +40,9 @@
  
  <entry>
    <title>Huion HS64</title>
-   <link href="http://localhost:4000/2021/09/19/huion-hs64"/>
+   <link href="https://pratiknilange.in/2021/09/19/huion-hs64"/>
    <updated>2021-09-19T00:00:00+05:30</updated>
-   <id>http://localhost:4000/2021/09/19/huion-hs64</id>
+   <id>https://pratiknilange.in/2021/09/19/huion-hs64</id>
    <content type="html">&lt;p&gt;&lt;img src=&quot;/assets/media/img/IMG_20210919_100424-01.jpeg&quot; alt=&quot;Huion HS64&quot; /&gt;&lt;/p&gt;
 
 &lt;figcaption&gt;Huion&apos;s HS64 graphic tablet&lt;/figcaption&gt;
@@ -53,27 +53,27 @@
  
  <entry>
    <title>Rivers of London</title>
-   <link href="http://localhost:4000/2021/08/28/rivers-of-london"/>
+   <link href="https://pratiknilange.in/2021/08/28/rivers-of-london"/>
    <updated>2021-08-28T00:00:00+05:30</updated>
-   <id>http://localhost:4000/2021/08/28/rivers-of-london</id>
+   <id>https://pratiknilange.in/2021/08/28/rivers-of-london</id>
    <content type="html">&lt;p&gt;Reading a crime title after a pretty long time. &lt;a href=&quot;https://www.goodreads.com/book/show/9317452-rivers-of-london&quot;&gt;Rivers of London&lt;/a&gt; by Ben Aaronovitch.&lt;/p&gt;
 </content>
  </entry>
  
  <entry>
    <title>Namaste World</title>
-   <link href="http://localhost:4000/2021/08/19/namaste-world"/>
+   <link href="https://pratiknilange.in/2021/08/19/namaste-world"/>
    <updated>2021-08-19T00:00:00+05:30</updated>
-   <id>http://localhost:4000/2021/08/19/namaste-world</id>
+   <id>https://pratiknilange.in/2021/08/19/namaste-world</id>
    <content type="html">&lt;p&gt;An obligatory Hello World post!&lt;/p&gt;
 </content>
  </entry>
  
  <entry>
    <title>Field trip</title>
-   <link href="http://localhost:4000/2021/03/14/field-trip"/>
+   <link href="https://pratiknilange.in/2021/03/14/field-trip"/>
    <updated>2021-03-14T00:00:00+05:30</updated>
-   <id>http://localhost:4000/2021/03/14/field-trip</id>
+   <id>https://pratiknilange.in/2021/03/14/field-trip</id>
    <content type="html">&lt;p&gt;&lt;img src=&quot;/assets/media/img/field-pic-1.jpeg&quot; alt=&quot;Somewhere in Karnataka&quot; title=&quot;Somewhere in Karnataka&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Somewhere in Karnataka.&lt;/p&gt;
@@ -82,9 +82,9 @@
  
  <entry>
    <title>Staticman comments on a Jekyll site</title>
-   <link href="http://localhost:4000/2019/07/23/staticman-comments-on-a-jekyll-site"/>
+   <link href="https://pratiknilange.in/2019/07/23/staticman-comments-on-a-jekyll-site"/>
    <updated>2019-07-23T00:00:00+05:30</updated>
-   <id>http://localhost:4000/2019/07/23/staticman-comments-on-a-jekyll-site</id>
+   <id>https://pratiknilange.in/2019/07/23/staticman-comments-on-a-jekyll-site</id>
    <content type="html">&lt;p&gt;Lorem ipsum dolor amet tousled viral art party blue bottle single-origin coffee cardigan, selvage man braid helvetica. Banh mi taxidermy meditation microdosing. Selvage cornhole YOLO, small batch vexillologist raclette VHS prism sustainable 8-bit ugh semiotics letterpress disrupt pop-up. Celiac shabby chic ugh, jianbing whatever kitsch tattooed edison bulb kogi irony etsy.&lt;/p&gt;
 
 &lt;p&gt;Franzen polaroid hammock iceland blue bottle woke disrupt tilde kale chips raw denim ramps vaporware before they sold out irony. Narwhal vaporware offal shaman celiac kinfolk activated charcoal salvia lomo irony readymade normcore. Yr activated charcoal kombucha, man braid whatever biodiesel hella crucifix adaptogen bicycle rights small batch skateboard mixtape. Hot chicken sustainable green juice 90’s. Ennui kickstarter hella pug, meggings man bun shaman messenger bag. Chambray adaptogen kombucha pug affogato, kogi green juice distillery ugh banh mi.&lt;/p&gt;
