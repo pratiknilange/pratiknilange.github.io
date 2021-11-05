@@ -10,3 +10,5 @@ Instagram ... <a href="https://instagram.com/pratiknilange" target="_blank">@pra
 LinkedIn ... <a href="https://linkedin.com/in/pratnil" target="_blank">@pratnil</a>
 
 Twitter ... <a href="https://twitter.com/pnonf" target="_blank">@pnonf</a>
+
+Bindass Bhidu ... <a href="https://bindassbhidu.wordpress.com" target="_blank">@blog</a>
