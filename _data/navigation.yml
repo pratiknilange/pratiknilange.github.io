@@ -1,9 +1,11 @@
 links:
-- title: Writing
+- title: Home
   url: /
 - title: About
   url: /about
 - title: Search
   url: /search
+- title: Blog
+  url: https://bindassbhidu.wordpress.com
 - title: Rss
   url: /atom.xml
