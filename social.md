@@ -11,4 +11,4 @@ LinkedIn ... <a href="https://linkedin.com/in/pratnil" target="_blank">@pratnil<
 
 Twitter ... <a href="https://twitter.com/pnonf" target="_blank">@pnonf</a>
 
-Bindass Bhidu ... <a href="https://bindassbhidu.wordpress.com" target="_blank">@blog</a>
+WordPress Blog ... <a href="https://bindassbhidu.wordpress.com" target="_blank">@BindassBhidu</a>
