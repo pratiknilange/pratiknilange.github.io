@@ -1,70 +1,90 @@
-site: Pratik Nilange
-url: https://pratiknilange.in #yoururl
-title: Pratik Nilange
-description: musings on tech, design, life.
-twitter:
-  username: pnonf #yourusername
-  card: summary
-  creator: pnonf #yourusername
+# Site settings
+title: Pratik Nilange # site title
+description: >- # site description
+  Just some guy
+lang: en-US # default lang
+timezone: Asia/Kolkata # set your timezone
+image: assets/PratikNilange_30.jpeg # This image used for Open Graph more info https://ogp.me/
+repo: https://github.com/pratiknilange/pratiknilange.github.io # site repo [optional]
+mode: light # default theme "dark" | "light"
+
+# Profile settings
 author:
-  twitter: pnonf #yourusername
-  name: pnonf #yourusername
-  avatar:
-  email: #youremail
-  url: https://pratiknilange.in #yoururl
-permalink: pretty
+  name: Pratik Nilange # author name
+  bio: >- # tell to the world
+    Just some guy
+  username: pratiknilange # general username
+  github: pratiknilange # github username
+  twitter: pnonf # twitter username
+  facebook: pratiknilange # facebook username
+  email: pratik.nilange@icloud.com # email adress
+  avatar: assets/PratikNilange_30.jpeg # change with your own avatar
 
-baseurl: ""
+# URL settings
+url: "https://pratiknilange.in" #
+baseurl:
+permalink: /:title/
+google_analytics: # leave it blank if not wish
+fb_appid:
 
-highlighter: rouge
-
-exclude:
-  - .jekyll-cache
-  
-compress_html:
-  clippings: all
-  comments: ["<!-- ", " -->"]
-
-sass:
-  sass_dir:          _sass
-  style:            :compressed
-
-plugins:
-  - jekyll-paginate
-  - jekyll-seo-tag
-  - jekyll-sitemap  
-
+# Collection setting
 collections:
-  pages:
-    output: true
-    permalink: /:name
   posts:
     output: true
-    permalink: /:year/:month/:day/:slug
-  
-defaults:
-  -
-    scope:
-      path: ""
-    values:
-      layout: "default"
-  -
-    scope:
-      path: ""
-      type: "pages"
-    values:
-      layout: "page"
-  -
-    scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: "post"
 
-destination: docs
-
+# Markdown settings
 markdown: kramdown
-
+highlighter: rouge
 kramdown:
-  input: GFM
   syntax_highlighter: rouge
+
+# Default front matter
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: post
+      comments: false
+
+# Jekyll Compose default front matter
+jekyll_compose:
+  post_default_front_matter:
+    modified:
+    tags: []
+    description:
+  draft_default_front_matter:
+    modified:
+    tags: []
+    description:
+
+# Homepage limit posts
+number_of_posts: 5
+
+# Build settings
+# theme: klise
+sass:
+  style: compressed
+
+include:
+  - _redirects
+  - .htaccess
+
+exclude:
+  - CNAME
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - CHANGELOG.md
+  - README.md
+  - node_modules
+  - CODE_OF_CONDUCT.md
+  - CONTRIBUTING.md
+  - lighthouse.png
+  - klise-*.gem
+  - klise.gemspec
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  # - jekyll-postfiles
