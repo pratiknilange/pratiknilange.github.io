@@ -1,11 +1,13 @@
 ---
-layout: default
-title: Home
+layout: page
+title: A not-so-daily log 📓
 ---
 
+<hr>
+<br>
 <div class="posts">
   {% for post in site.posts %}
-  {% if post.dailylog != true %}
+  {% if post.dailylog == true %}
   <div class="post">
     <h1 class="post-title">
       <a href="{{ post.url | absolute_url }}">
