@@ -1,0 +1,12 @@
+- title: About
+  url: /about
+- title: A not-so-daily log 📓
+  url: /dailylog
+- title: 'Spotify #Top20 🎶'
+  url: /spotify-top-20
+# - title: Twitter
+#   url: http://twitter.com/lllychen
+#   external: true
+# - title: Github
+#   url: http://github.com/lllychen/louie
+#   external: true

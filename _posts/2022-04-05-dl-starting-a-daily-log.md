@@ -3,6 +3,7 @@ layout: post
 title: Starting a daily log
 excerpt: here we goooo 🏃🏼‍♂️
 dailylog: true
+category: Daily Log
 ---
 
 Took me some time to understand liquid and classify the posts based on front-matter. So as per the present config,

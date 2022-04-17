@@ -1,8 +1,3 @@
----
-layout: page
-title: A not-so-daily log 📓
----
-
 {% if site.posts %}
   <ul class="rows">
     <li class="row__cols">
@@ -29,7 +24,7 @@ title: A not-so-daily log 📓
       </div>
     </li>
     {% for post in site.posts %}
-    {% if post.dailylog == true %}
+    {% if post.dailylog == nil %}
       <li class="row__post">
         <a href="{{ site.url }}{{ post.url | relative_url }}">
           <div class="row__title {% if include.uid == post.id %}row__active{% endif %}">

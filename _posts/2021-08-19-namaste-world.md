@@ -2,7 +2,9 @@
 layout: post
 title: Namaste World
 excerpt: An obligatory Hello World post!
-dailylog: false
+author: Pratik Nilange
+category: Update
+img:
 ---
 
 An obligatory Hello World post!
