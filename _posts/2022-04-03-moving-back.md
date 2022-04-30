@@ -2,8 +2,7 @@
 layout: post
 title: Moving back
 excerpt: Okay, WP doesn't make sense 🤦🏽‍♂️
-category: Update
-img: https://miro.medium.com/proxy/0*N8RG95bKJnnF-wpL.png
+tags: update
 ---
 
 So as per the latest update, WP is changing its <a href="https://wordpress.com/support/plan-features/#word-press-com-pro" target="_blank">pricing model</a>, and TBH it doesn’t make sense. Paying >1k INR/mo is simply a weird proposition. Of course, you would get access to their Premium themes and all, but it is a pretty bad deal (unless you have a business set up on wp.com).

@@ -1,27 +1,90 @@
-# site
-title: Pratik Nilange
-baseurl: ""
-url: "https://pratiknilange.in"
-favicon: "/assets/sample/ico.png"
-g_analytics: UA-12345678-1
-
-# bio
-header: Pratik Nilange
-desc: >
+# Site settings
+title: Pratik Nilange # site title
+description: >- # site description
   Unlucky in cards
+lang: en-US # default lang
+timezone: Asia/Kolkata # set your timezone
+image: assets/PratikNilange_30.jpeg # This image used for Open Graph more info https://ogp.me/
+repo: https://github.com/pratiknilange/pratiknilange.github.io # site repo [optional]
+mode: dark # default theme "dark" | "light"
 
-# posts
-# date_format: "%Y"
-post_title: Story
-post_date: Date
-post_cat: Genre
+# Profile settings
+author:
+  name: Pratik Nilange # author name
+  bio: >- # tell to the world
+    Just some guy
+  username: pratiknilange # general username
+  github: pratiknilange # github username
+  twitter: pnonf # twitter username
+  facebook: pratiknilange # facebook username
+  email: pratik.nilange@icloud.com # email adress
+  avatar: assets/PratikNilange_30.jpeg # change with your own avatar
 
-# post detail
-prev-next: true
+# URL settings
+url: "https://pratiknilange.in" #
+baseurl:
+permalink: /:title/
+google_analytics: # leave it blank if not wish
+fb_appid:
 
-# build settings
+# Collection setting
+collections:
+  posts:
+    output: true
+
+# Markdown settings
 markdown: kramdown
-# theme: louie
+highlighter: rouge
+kramdown:
+  syntax_highlighter: rouge
+
+# Default front matter
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: post
+      comments: false
+
+# Jekyll Compose default front matter
+jekyll_compose:
+  post_default_front_matter:
+    modified:
+    tags: []
+    description:
+  draft_default_front_matter:
+    modified:
+    tags: []
+    description:
+
+# Homepage limit posts
+number_of_posts: 5
+
+# Build settings
+# theme: klise
+sass:
+  style: compressed
+
+include:
+  - _redirects
+  - .htaccess
+
 exclude:
+  - CNAME
   - Gemfile
   - Gemfile.lock
+  - LICENSE
+  - CHANGELOG.md
+  - README.md
+  - node_modules
+  - CODE_OF_CONDUCT.md
+  - CONTRIBUTING.md
+  - lighthouse.png
+  - klise-*.gem
+  - klise.gemspec
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  # - jekyll-postfiles
