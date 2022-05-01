@@ -5,4 +5,10 @@ tmp
 .DS_Store
 .jekyll-cache
 .git
-_site
+
+
+# Jekyll stuff
+/_site/
+_site/
+.sass-cache/
+.jekyll-metadata
