@@ -12,14 +12,14 @@ I’m an engineer and a self-taught graphic designer living in Bangalore. I also
 <p>I attended the <a href="https://reva.edu.in" target="_blank">REVA University</a>, and graduated with a Bachelors in Electronics and Communication Engineering in 2021.</p> 
 
 **Work** 🚀
-<p>I'm currently working as an Engineer in the Wealth Management Product team (<a href = "https://tcs.com/bancs" target = "_blank">BaNCS</a>) at <a href="https://twitter.com/tcs" target="_blank">Tata Consultancy Services</a>. I was previously heading the technical department at <a href="https://instagram.com/eventsatforce" target="_blank">FORCE, REVA University</a>.</p>
+<p>I'm currently working as an Engineer in the Wealth Management Product team (<a href = "https://tcs.com/bancs" target = "_blank">BaNCS</a>) at <a href="https://twitter.com/tcs" target="_blank">TCS Financial Solutions</a>. I was previously heading the technical department at <a href="https://instagram.com/eventsatforce" target="_blank">FORCE, REVA University</a>.</p>
 
 **Location** 🌴
 <p><strike>Pune, MH</strike> · <strike>Dharwad, KA</strike> · <b>Bangalore, KA</b></p>
 
 **Social** ✨
 <ul class="list">
-    <li><a href="https://twitter.com/pnonf" target="_blank">Twitter</a></li>
+    <li><a href="https://twitter.com/pro7on" target="_blank">Twitter</a></li>
     <li><a href="https://github.com/pratiknilange" target="_blank">GitHub</a></li>
     <li><a href="https://linkedin.com/in/npt" target="_blank">LinkedIn</a></li>
     <li><a href="https://behance.net/prat" target="_blank">Behance</a></li>
