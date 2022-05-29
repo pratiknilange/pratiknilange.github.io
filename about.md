@@ -24,6 +24,7 @@ I’m an engineer and a self-taught graphic designer living in Bangalore. I also
     <li><a href="https://linkedin.com/in/npt" target="_blank">LinkedIn</a></li>
     <li><a href="https://behance.net/prat" target="_blank">Behance</a></li>
     <li><a href="https://www.flickr.com/photos/186635911@N03/" target="_blank">Flickr</a></li>
+    <li><a href="https://adjustkarlo.wordpress.com" target="_blank">Adjust Kar Lo 🛵 (Private Blog)</a></li>
     <li><a href="https://facebook.com/pratnil" target="_blank">Facebook</a></li>
     <li><a href="https://instagram.com/pratiknilange" target="_blank">Instagram</a></li>
 </ul>
